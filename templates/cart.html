@@ -1,0 +1,222 @@
+{% extends 'base.html' %}
+
+{% block title %}Cart | Trendify{% endblock %}
+
+{% block content %}
+<style>
+    body {
+        background-color: #f4f4f4 !important;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .cart-wrapper {
+        background-color: #f4f4f4;
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+    .cart-page-title {
+        font-size: 26px;
+        font-weight: 400;
+        letter-spacing: 6px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        color: #111111;
+        text-transform: uppercase;
+    }
+    .cart-table-header {
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        color: #666666;
+        border-bottom: 1px solid #dcdcdc;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+    }
+    .cart-item-row {
+        border-bottom: 1px solid #dcdcdc;
+        padding: 25px 0;
+    }
+    .quantity-selector {
+        display: inline-flex;
+        align-items: center;
+        border: 1px solid #cccccc;
+        background: #f4f4f4;
+    }
+    .quantity-btn {
+        background: none;
+        border: none;
+        padding: 4px 12px;
+        font-size: 14px;
+        color: #333333;
+        cursor: pointer;
+    }
+    .quantity-input {
+        width: 30px;
+        border: none;
+        background: transparent;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .remove-link {
+        font-size: 12px;
+        color: #333333;
+        text-decoration: underline;
+        display: inline-block;
+        margin-top: 6px;
+    }
+    .remove-link:hover {
+        color: #000000;
+    }
+    .btn-checkout-dark {
+        background-color: #181818;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        padding: 14px 45px;
+        border: none;
+        border-radius: 0;
+        text-transform: uppercase;
+    }
+    .btn-checkout-dark:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    .estimate-box {
+        border: 1px solid #d0d0d0;
+        padding: 35px 25px 25px 25px;
+        background-color: #f4f4f4;
+        position: relative;
+        margin-top: 60px;
+    }
+    .estimate-title {
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #f4f4f4;
+        padding: 0 15px;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: #222222;
+        text-transform: uppercase;
+    }
+    .custom-floating-select {
+        border: 1px solid #cccccc;
+        background-color: #f4f4f4;
+        padding: 8px;
+        font-size: 13px;
+        border-radius: 0;
+    }
+    .custom-input {
+        border: 1px solid #cccccc;
+        background-color: #f4f4f4;
+        padding: 9px 12px;
+        font-size: 13px;
+        border-radius: 0;
+    }
+</style>
+
+<div class="cart-wrapper">
+    <div class="container my-4" style="max-width: 950px;">
+        <h1 class="cart-page-title">CART</h1>
+
+        {% if cart_items %}
+        <!-- Table Header -->
+        <div class="row cart-table-header d-none d-md-flex">
+            <div class="col-md-6">PRODUCT</div>
+            <div class="col-md-3 text-center">QUANTITY</div>
+            <div class="col-md-3 text-end">TOTAL</div>
+        </div>
+
+        <!-- Items List -->
+        {% for item in cart_items %}
+        <div class="row cart-item-row align-items-center">
+            <!-- Product Column -->
+            <div class="col-md-6 col-12 d-flex align-items-center mb-3 mb-md-0">
+                <img src="{{ item.product.image }}" alt="{{ item.product.name }}" style="width: 90px; height: 90px; object-fit: contain;" class="me-4 bg-white p-1">
+                <div>
+                    <span class="text-uppercase small text-muted d-block mb-1" style="letter-spacing: 1.5px; font-size: 11px;">{{ item.product.brand or 'TRENDIFY' }}</span>
+                    <h6 class="text-uppercase mb-1 fw-normal" style="letter-spacing: 1px; font-size: 13px; color: #111;">{{ item.product.name }}</h6>
+                    <span class="text-muted" style="font-size: 12px;">RS.{{ "%.2f"|format(item.product.price) }}</span>
+                </div>
+            </div>
+
+            <!-- Quantity Column -->
+            <div class="col-md-3 col-6 text-md-center">
+                <div class="quantity-selector">
+                    <button type="button" class="quantity-btn" onclick="updateQty({{ item.product.id }}, -1)">−</button>
+                    <input type="text" class="quantity-input" value="{{ item.quantity }}" readonly>
+                    <button type="button" class="quantity-btn" onclick="updateQty({{ item.product.id }}, 1)">+</button>
+                </div>
+                <div>
+                    <a href="{{ url_for('delete_from_cart', product_id=item.product.id) }}" class="remove-link">Remove</a>
+                </div>
+            </div>
+
+            <!-- Subtotal Column -->
+            <div class="col-md-3 col-6 text-end">
+                <span style="font-size: 14px; color: #111;">Rs.{{ "%.2f"|format(item.subtotal) }}</span>
+            </div>
+        </div>
+        {% endfor %}
+
+        <!-- Order Note & Total Section -->
+        <div class="row mt-4 align-items-start">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <label class="form-label small text-muted mb-2" style="font-size: 13px;">Add order note</label>
+                <textarea class="form-control rounded-0" rows="4" placeholder="How can we help you?" style="background-color: #f4f4f4; border: 1px solid #cccccc; font-size: 13px; color: #555;"></textarea>
+            </div>
+
+            <div class="col-md-6 text-end">
+                <h5 class="fw-normal mb-1" style="font-size: 16px; color: #111;">Total: Rs.{{ "%.2f"|format(total) }} PKR</h5>
+                <p class="text-muted small mb-4" style="font-size: 11px;">Taxes and <span style="text-decoration: underline;">shipping</span> calculated at checkout</p>
+                <a href="{{ url_for('checkout') }}" class="btn btn-checkout-dark text-decoration-none">
+                    CHECKOUT
+                </a>
+            </div>
+        </div>
+
+        <!-- Estimate Shipping Box -->
+        <div class="estimate-box">
+            <span class="estimate-title">ESTIMATE SHIPPING</span>
+            <div class="row g-2 align-items-center justify-content-start">
+                <div class="col-md-3">
+                    <div style="position: relative;">
+                        <span style="position: absolute; top: -8px; left: 8px; background: #f4f4f4; padding: 0 4px; font-size: 10px; color: #777;">Country</span>
+                        <select class="form-select custom-floating-select w-100">
+                            <option selected>Pakistan</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control custom-input" placeholder="Zip code">
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-dark rounded-0 w-100 fw-semibold text-uppercase" style="padding: 9px; font-size: 11px; letter-spacing: 1.5px; background-color: #181818; border: none;">ESTIMATE</button>
+                </div>
+            </div>
+        </div>
+
+        {% else %}
+        <!-- Empty Cart -->
+        <div class="text-center py-5">
+            <p class="text-muted fs-6" style="letter-spacing: 1px;">Your cart is currently empty.</p>
+            <a href="{{ url_for('home') }}" class="btn btn-checkout-dark mt-3">CONTINUE SHOPPING</a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<script>
+    function updateQty(productId, change) {
+        if (change > 0) {
+            window.location.href = "/add_to_cart/" + productId;
+        } else {
+            window.location.href = "/remove_from_cart/" + productId;
+        }
+    }
+</script>
+{% endblock %}

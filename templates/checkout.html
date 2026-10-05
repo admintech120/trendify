@@ -1,0 +1,268 @@
+{% extends 'base.html' %}
+
+{% block title %}Checkout | Trendify{% endblock %}
+
+{% block content %}
+<style>
+    /* Shopify Style Clean Checkout */
+    body {
+        background-color: #ffffff;
+    }
+    .checkout-container {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .form-floating-custom {
+        border: 1px solid #d9d9d9;
+        border-radius: 8px;
+        padding: 10px 14px;
+        font-size: 14px;
+        width: 100%;
+        outline: none;
+        transition: border-color 0.2s;
+    }
+    .form-floating-custom:focus {
+        border-color: #005bd3;
+        box-shadow: 0 0 0 1px #005bd3;
+    }
+    .checkout-section-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #000000;
+        margin-bottom: 12px;
+    }
+    .order-summary-box {
+        background-color: #f5f5f5;
+        border-left: 1px solid #e6e6e6;
+        padding: 35px 30px;
+        min-height: 100vh;
+    }
+    .product-badge-img {
+        position: relative;
+        width: 64px;
+        height: 64px;
+        border: 1px solid #e1e1e1;
+        border-radius: 8px;
+        background: #fff;
+    }
+    .product-badge-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 8px;
+    }
+    .item-count-badge {
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        background: #000;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .radio-box {
+        border: 1px solid #005bd3;
+        background-color: #f4f8ff;
+        border-radius: 8px;
+        padding: 14px;
+    }
+    .btn-complete-order {
+        background-color: #005bd3;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 16px;
+        border-radius: 8px;
+        border: none;
+        width: 100%;
+    }
+    .btn-complete-order:hover {
+        background-color: #0049a8;
+        color: white;
+    }
+</style>
+
+<div class="container-fluid checkout-container">
+    <form action="{{ url_for('checkout') }}" method="POST">
+        <div class="row min-vh-100">
+            <!-- Left Side: Contact, Delivery, Payment -->
+            <div class="col-lg-7 px-4 px-lg-5 py-4">
+                
+                <!-- Contact Section -->
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="checkout-section-title">Contact</h5>
+                    <a href="#" class="text-decoration-underline text-dark small">Sign in</a>
+                </div>
+                <div class="mb-3">
+                    <input type="email" name="email" class="form-floating-custom" placeholder="Email" required>
+                </div>
+                <div class="form-check mb-4">
+                    <input class="form-check-input" type="checkbox" id="news_offers" name="news_offers">
+                    <label class="form-check-label text-muted small" for="news_offers">
+                        Email me with news and offers
+                    </label>
+                </div>
+
+                <!-- Delivery Section -->
+                <h5 class="checkout-section-title mt-4">Delivery</h5>
+                <div class="mb-3">
+                    <select name="country" class="form-floating-custom">
+                        <option value="Pakistan" selected>Pakistan</option>
+                    </select>
+                </div>
+                
+                <div class="row g-2 mb-3">
+                    <div class="col-6">
+                        <input type="text" name="first_name" class="form-floating-custom" placeholder="First name" required>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" name="last_name" class="form-floating-custom" placeholder="Last name" required>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <input type="text" name="address" class="form-floating-custom" placeholder="Address" required>
+                </div>
+
+                <div class="row g-2 mb-3">
+                    <div class="col-6">
+                        <input type="text" name="city" class="form-floating-custom" placeholder="City" required>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" name="postal_code" class="form-floating-custom" placeholder="Postal code (optional)">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <input type="tel" name="phone" class="form-floating-custom" placeholder="Phone" required>
+                </div>
+
+                <div class="form-check mb-4">
+                    <input class="form-check-input" type="checkbox" id="save_info" checked>
+                    <label class="form-check-label text-muted small" for="save_info">
+                        Save this information for next time
+                    </label>
+                </div>
+
+                <!-- Shipping Method -->
+                <h5 class="checkout-section-title mt-4">Shipping method</h5>
+                <div class="radio-box d-flex justify-content-between align-items-center mb-4">
+                    <span class="fw-semibold">Shipping Charges</span>
+                    <span class="fw-bold">Rs 199.00</span>
+                </div>
+
+                <!-- Payment Method -->
+                <h5 class="checkout-section-title">Payment</h5>
+                <p class="text-muted small mb-2">All transactions are secure and encrypted.</p>
+                <div class="radio-box mb-4">
+                    <input class="form-check-input me-2" type="radio" name="payment_method" value="Cash on Delivery (COD)" checked>
+                    <span class="fw-bold">Cash on Delivery (COD)</span>
+                </div>
+
+                <!-- Billing Address -->
+                <h5 class="checkout-section-title">Billing address</h5>
+                <div class="border rounded-3 p-3 mb-4">
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="radio" name="billing_address_type" id="same_address" value="same" checked onclick="toggleBilling(false)">
+                        <label class="form-check-label fw-semibold" for="same_address">
+                            Same as shipping address
+                        </label>
+                    </div>
+                    <hr>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="billing_address_type" id="different_address" value="different" onclick="toggleBilling(true)">
+                        <label class="form-check-label fw-semibold" for="different_address">
+                            Use a different billing address
+                        </label>
+                    </div>
+
+                    <!-- Hidden Billing Fields -->
+                    <div id="billing_fields" class="mt-3 d-none">
+                        <div class="mb-2">
+                            <input type="text" name="billing_address" class="form-floating-custom" placeholder="Billing Address">
+                        </div>
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <input type="text" name="billing_city" class="form-floating-custom" placeholder="Billing City">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" name="billing_phone" class="form-floating-custom" placeholder="Billing Phone">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-complete-order mb-5">Complete order</button>
+            </div>
+
+            <!-- Right Side: Order Summary Panel -->
+            <div class="col-lg-5 order-summary-box">
+                <div class="pe-lg-4">
+                    <!-- Products List -->
+                    {% for item in cart_items %}
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <div class="d-flex align-items-center">
+                            <div class="product-badge-img me-3">
+                                <img src="{{ item.product.image }}" alt="{{ item.product.name }}">
+                                <span class="item-count-badge">{{ item.quantity }}</span>
+                            </div>
+                            <div>
+                                <span class="fw-semibold d-block text-dark">{{ item.product.name }}</span>
+                            </div>
+                        </div>
+                        <span class="fw-semibold">Rs {{ "%.2f"|format(item.subtotal) }}</span>
+                    </div>
+                    {% endfor %}
+
+                    <!-- Discount Code Input -->
+                    <div class="row g-2 my-4">
+                        <div class="col-8">
+                            <input type="text" class="form-floating-custom bg-white" placeholder="Discount code">
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-light border w-100 fw-semibold" style="padding: 10px;">Apply</button>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <!-- Subtotal & Shipping Calc -->
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="text-muted">Subtotal</span>
+                        <span class="fw-semibold">Rs {{ "%.2f"|format(total) }}</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span class="text-muted">Shipping <i class="fa-regular fa-circle-question" title="Flat shipping rate"></i></span>
+                        <span class="fw-semibold">Rs 199.00</span>
+                    </div>
+
+                    <hr>
+
+                    <!-- Total Price -->
+                    {% set grand_total = total + 199.00 %}
+                    <div class="d-flex justify-content-between align-items-center fs-4 fw-bold text-dark mt-3">
+                        <span>Total</span>
+                        <span><small class="fs-6 text-muted font-normal me-1">PKR</small> Rs {{ "%.2f"|format(grand_total) }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    function toggleBilling(show) {
+        const fields = document.getElementById('billing_fields');
+        if (show) {
+            fields.classList.remove('d-none');
+        } else {
+            fields.classList.add('d-none');
+        }
+    }
+</script>
+{% endblock %}

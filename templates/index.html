@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Top Admin Bar (Sirf tab dikhega jab Admin Login ho) -->
+{% if session.get('is_admin') %}
+<div class="container my-2">
+    <div class="d-flex justify-content-between align-items-center bg-light p-2 px-3 rounded border">
+        <span class="badge bg-success">Admin Mode Active</span>
+        <div>
+            <a href="{{ url_for('add_product') }}" class="btn btn-sm btn-dark me-2">+ Add Product</a>
+            <a href="{{ url_for('admin_logout') }}" class="btn btn-sm btn-outline-danger">Logout</a>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- Hero Banner Section -->
+<div class="text-center py-5 my-2" style="background-color: #f8f9fa;">
+    <h1 class="fw-bold tracking-wider mb-2" style="font-family: sans-serif; letter-spacing: 2px; color: #111;">TRENDIFY COLLECTION</h1>
+    <p class="text-muted text-uppercase mb-0" style="letter-spacing: 1.5px; font-size: 0.85rem;">PREMIUM QUALITY SHOES & WATCHES</p>
+</div>
+
+<!-- Products Grid Section -->
+<div class="container my-5">
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category }} alert-dismissible fade show mb-4" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <!-- Active filter / search info -->
+    {% if search_query or (active_category and active_category != 'All') %}
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+        <div>
+            {% if search_query %}
+            <span class="text-muted">Search results for:</span>
+            <strong>"{{ search_query }}"</strong>
+            {% elif active_category and active_category != 'All' %}
+            <span class="text-muted">Category:</span>
+            <strong class="text-uppercase">{{ active_category }}</strong>
+            {% endif %}
+            <span class="text-muted ms-2">({{ products|length }} product{{ 's' if products|length != 1 else '' }})</span>
+        </div>
+        <a href="{{ url_for('home') }}" class="btn btn-sm btn-outline-dark rounded-0">Clear Filter</a>
+    </div>
+    {% endif %}
+
+    {% if products %}
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        {% for product in products %}
+        <div class="col">
+            <div class="card h-100 border p-3 text-center" style="border-color: #e5e5e5 !important; border-radius: 0px; background-color: #ffffff;">
+                
+                <!-- Product Image Container -->
+                <div class="border p-2 mb-3" style="border-color: #f0f0f0 !important; background-color: #fff;">
+                    <a href="{{ url_for('product_detail', product_id=product.id) }}">
+                        <img src="{{ product.image }}" class="img-fluid" alt="{{ product.name }}" style="height: 250px; width: 100%; object-fit: contain;">
+                    </a>
+                </div>
+
+                <!-- Product Details -->
+                <div class="card-body d-flex flex-column p-0">
+                    
+                    <!-- Ratings -->
+                    <div class="text-warning mb-1" style="font-size: 0.85rem;">
+                        ★★★★★ <span class="text-muted" style="font-size: 0.75rem;">(4.7)</span>
+                    </div>
+
+                    <!-- Brand Name -->
+                    <div class="text-muted text-uppercase mb-1" style="font-size: 0.75rem; letter-spacing: 1px;">
+                        {{ product.brand or 'TRENDIFY' }}
+                    </div>
+
+                    <!-- Title -->
+                    <h6 class="fw-bold text-uppercase mb-2" style="font-size: 0.9rem; letter-spacing: 0.5px; color: #111;">
+                        <a href="{{ url_for('product_detail', product_id=product.id) }}" class="text-decoration-none text-dark">
+                            {{ product.name }}
+                        </a>
+                    </h6>
+
+                    <!-- Price -->
+                    <div class="mb-3">
+                        <span class="fw-bold" style="font-size: 1rem; color: #000;">
+                            Rs.{{ "%.2f"|format(product.price) }} PKR
+                        </span>
+                        {% if product.old_price %}
+                        <span class="text-muted text-decoration-line-through ms-2 small">
+                            Rs.{{ "%.2f"|format(product.old_price) }} PKR
+                        </span>
+                        {% endif %}
+                    </div>
+
+                    <!-- Black Full-Width Button -->
+                    <div class="mt-auto">
+                        <a href="{{ url_for('product_detail', product_id=product.id) }}" class="btn btn-dark w-100 fw-bold py-2 text-uppercase" style="border-radius: 0px; font-size: 0.8rem; letter-spacing: 1px; background-color: #111; border: none;">
+                            VIEW DETAILS
+                        </a>
+                    </div>
+
+                    <!-- Admin Edit / Delete Controls (Only Visible When Logged In) -->
+                    {% if session.get('is_admin') %}
+                    <div class="d-flex gap-2 mt-2 pt-2 border-top">
+                        <a href="{{ url_for('edit_product', product_id=product.id) }}" class="btn btn-sm btn-outline-warning w-50">Edit</a>
+                        <a href="{{ url_for('delete_product', product_id=product.id) }}" class="btn btn-sm btn-outline-danger w-50" onclick="return confirm('Product delete karna chahti hain?');">Delete</a>
+                    </div>
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="text-center py-5">
+        <p class="text-muted fs-5 mb-3">No products found.</p>
+        <a href="{{ url_for('home') }}" class="btn btn-dark rounded-0 px-4">View All Products</a>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

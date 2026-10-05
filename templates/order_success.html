@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+
+{% block title %}Order Confirmed | Trendify{% endblock %}
+
+{% block content %}
+<style>
+    .success-card {
+        max-width: 750px;
+        margin: 60px auto;
+        background: #ffffff;
+        border: 1px solid #e5e5e5;
+        padding: 50px 30px;
+        text-align: center;
+    }
+    .success-icon {
+        width: 70px;
+        height: 70px;
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    .order-info-box {
+        background-color: #f9f9f9;
+        border: 1px solid #e5e5e5;
+        padding: 25px 20px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .status-badge {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 6px 16px;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: 600;
+    }
+    .btn-continue-dark {
+        background-color: #1a1a1a;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        padding: 14px 40px;
+        border: none;
+        border-radius: 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
+    .btn-continue-dark:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+</style>
+
+<div class="container">
+    <div class="success-card">
+        <!-- Black Circle with White Checkmark -->
+        <div class="success-icon">
+            <i class="bi bi-check-lg">✓</i>
+        </div>
+        
+        <h1 class="fw-bold mb-3 text-uppercase" style="font-size: 28px; letter-spacing: 2px; color: #111111;">
+            Thank You For Your Order, <br>{{ name }}!
+        </h1>
+        
+        <p class="text-muted fs-6" style="letter-spacing: 0.5px;">
+            Your order has been received and is currently being processed.
+        </p>
+
+        <!-- Details Box -->
+        <div class="order-info-box">
+            <div class="row align-items-center">
+                <div class="col-md-4 mb-3 mb-md-0 border-end">
+                    <span class="text-muted small d-block text-uppercase" style="letter-spacing: 1px;">Order Status</span>
+                    <span class="status-badge mt-2">Processing</span>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0 border-end">
+                    <span class="text-muted small d-block text-uppercase" style="letter-spacing: 1px;">Payment Method</span>
+                    <strong class="d-block mt-2 text-uppercase" style="color: #111111; font-size: 14px;">{{ payment_method }}</strong>
+                </div>
+                <div class="col-md-4">
+                    <span class="text-muted small d-block text-uppercase" style="letter-spacing: 1px;">Total Amount</span>
+                    <strong class="d-block mt-2 fs-5" style="color: #000000;">Rs.{{ "%.2f"|format(total) }} PKR</strong>
+                </div>
+            </div>
+        </div>
+
+        <p class="text-muted small mb-4" style="letter-spacing: 0.5px;">
+            A confirmation notification with delivery details will be sent shortly.
+        </p>
+
+        <!-- Black & White Button -->
+        <a href="{{ url_for('home') }}" class="btn-continue-dark">
+            Continue Shopping
+        </a>
+    </div>
+</div>
+{% endblock %}
