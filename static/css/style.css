@@ -1,1 +1,178 @@
+/* ============================================================
+   TRENDIFY - Professional E-commerce Stylesheet
+   ============================================================ */
 
+:root {
+    --primary: #111111;
+    --accent: #e5ac37;
+    --muted: #666666;
+    --border: #e5e5e5;
+    --bg-light: #f8f9fa;
+    --success: #198754;
+}
+
+/* ----- Base ----- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #222;
+    background-color: #ffffff;
+}
+
+/* ----- Announcement Bar ----- */
+.announcement-bar {
+    background-color: var(--primary);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding: 8px 0;
+    text-transform: uppercase;
+}
+
+/* ----- Brand Logo ----- */
+.brand-logo {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--primary) !important;
+    text-transform: uppercase;
+}
+
+/* ----- Category Navigation ----- */
+.category-nav .nav-link {
+    color: #333;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 8px 18px !important;
+    transition: color 0.2s;
+}
+
+.category-nav .nav-link:hover {
+    color: var(--accent);
+}
+
+.header-search {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    font-size: 13px;
+    padding: 6px 12px;
+}
+
+/* ----- Subscribe Section ----- */
+.subscribe-section {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    border-top: 1px solid var(--border);
+}
+
+.subscribe-input {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    padding: 12px 16px;
+    font-size: 14px;
+}
+
+.subscribe-btn {
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 12px 28px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.subscribe-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* ----- Footer ----- */
+.site-footer {
+    background-color: #1a1a1a;
+    color: #ccc;
+}
+
+.site-footer .brand-logo {
+    color: #fff !important;
+}
+
+.footer-heading {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.site-footer a {
+    color: #999;
+    font-size: 13px;
+    transition: color 0.2s;
+}
+
+.site-footer a:hover {
+    color: var(--accent);
+}
+
+.site-footer .text-muted {
+    color: #888 !important;
+}
+
+/* ----- Product Cards ----- */
+.product-card {
+    border: 1px solid var(--border);
+    border-radius: 0;
+    transition: box-shadow 0.25s ease;
+    background: #fff;
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* ----- Buttons ----- */
+.btn-dark-custom {
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.btn-dark-custom:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* ----- Utility ----- */
+.tracking-wider {
+    letter-spacing: 2px;
+}
+
+/* ----- Cart badge ----- */
+.badge.rounded-circle {
+    font-size: 10px;
+    min-width: 18px;
+    height: 18px;
+    padding: 2px 5px;
+}
+
+/* ----- Responsive tweaks ----- */
+@media (max-width: 768px) {
+    .brand-logo {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    .announcement-bar {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+}
