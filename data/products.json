@@ -1,1 +1,618 @@
 
+[
+  {
+    "id": 1,
+    "name": "CASUAL SPORT SHOES - FASHION PRINT",
+    "brand": "TRENDIFY",
+    "price": 1499.0,
+    "old_price": 1899.0,
+    "image": "/static/images/shoe1.png",
+    "gallery_images": [
+      "/static/images/shoe1.png",
+      "/static/images/shoe3.png"
+    ],
+    "description": "Stylish white navy beige casual sneakers with artistic print. Soft cushioning, durable sole. Perfect for daily wear.",
+    "ratings": 4.8,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 21,
+    "in_stock": true
+  },
+  {
+    "id": 2,
+    "name": "FLK SPOT BLACK SNEAKERS",
+    "brand": "TRENDIFY",
+    "price": 1199.0,
+    "old_price": 1599.0,
+    "image": "/static/images/shoe2.png",
+    "gallery_images": [
+      "/static/images/shoe2.png"
+    ],
+    "description": "Lightweight black mesh sports sneakers with reflective stripes. Breathable and comfortable for running and casual use.",
+    "ratings": 4.6,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 25,
+    "in_stock": true
+  },
+  {
+    "id": 3,
+    "name": "WAVE PRINT CASUAL SNEAKERS",
+    "brand": "TRENDIFY",
+    "price": 1599.0,
+    "old_price": 1999.0,
+    "image": "/static/images/shoe3.png",
+    "gallery_images": [
+      "/static/images/shoe3.png",
+      "/static/images/shoe1.png"
+    ],
+    "description": "Premium casual sneakers with Japanese wave art print. Navy white beige design, thick sole for comfort.",
+    "ratings": 4.7,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 20,
+    "in_stock": true
+  },
+  {
+    "id": 4,
+    "name": "BLACK SPORT RUNNERS",
+    "brand": "TRENDIFY",
+    "price": 1299.0,
+    "old_price": 1699.0,
+    "image": "/static/images/shoe4.png",
+    "gallery_images": [
+      "/static/images/shoe4.png"
+    ],
+    "description": "Breathable mesh black runners with anti-slip sole. Lightweight design for daily walking and light workouts.",
+    "ratings": 4.5,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 24,
+    "in_stock": true
+  },
+  {
+    "id": 5,
+    "name": "BROWN WHITE CLASSIC SNEAKERS",
+    "brand": "TRENDIFY",
+    "price": 1699.0,
+    "old_price": 2199.0,
+    "image": "/static/images/shoe5.png",
+    "gallery_images": [
+      "/static/images/shoe5.png"
+    ],
+    "description": "Trendy brown and white low-top sneakers. Clean design, comfortable fit for casual and semi-formal looks.",
+    "ratings": 4.8,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 23,
+    "in_stock": true
+  },
+  {
+    "id": 6,
+    "name": "NAVY BLUE SPORT SHOES",
+    "brand": "TRENDIFY",
+    "price": 1399.0,
+    "old_price": 1799.0,
+    "image": "/static/images/shoe6.png",
+    "gallery_images": [
+      "/static/images/shoe6.png"
+    ],
+    "description": "Navy blue mesh sports shoes with white wave design and orange inner. Durable and stylish for everyday use.",
+    "ratings": 4.6,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 22,
+    "in_stock": true
+  },
+  {
+    "id": 7,
+    "name": "PURE WHITE CLASSIC SNEAKERS",
+    "brand": "TRENDIFY",
+    "price": 1249.0,
+    "old_price": 1599.0,
+    "image": "/static/images/shoe7.png",
+    "gallery_images": [
+      "/static/images/shoe7.png"
+    ],
+    "description": "Clean all-white classic sneakers. Minimal design that goes with every outfit. Soft sole and easy to clean.",
+    "ratings": 4.7,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 22,
+    "in_stock": true
+  },
+  {
+    "id": 8,
+    "name": "BLACK SLIP-ON SPORTS SHOES",
+    "brand": "TRENDIFY",
+    "price": 999.0,
+    "old_price": 1399.0,
+    "image": "/static/images/shoe8.png",
+    "gallery_images": [
+      "/static/images/shoe8.png"
+    ],
+    "description": "Comfortable black mesh slip-on shoes. No laces needed. Ideal for quick wear and casual outings.",
+    "ratings": 4.4,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 9,
+    "name": "BLACK WHITE LOW-TOP SNEAKERS",
+    "brand": "TRENDIFY",
+    "price": 1549.0,
+    "old_price": 1999.0,
+    "image": "/static/images/shoe9.png",
+    "gallery_images": [
+      "/static/images/shoe9.png"
+    ],
+    "description": "Modern black and white low-top sneakers. Street style look with cushioned sole.",
+    "ratings": 4.7,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 23,
+    "in_stock": true
+  },
+  {
+    "id": 10,
+    "name": "BROWN SPORT RUNNERS",
+    "brand": "TRENDIFY",
+    "price": 1349.0,
+    "old_price": 1749.0,
+    "image": "/static/images/shoe10.png",
+    "gallery_images": [
+      "/static/images/shoe10.png"
+    ],
+    "description": "Brown mesh sports runners with white sole. Breathable, anti-slip, durable build for daily use.",
+    "ratings": 4.5,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 23,
+    "in_stock": true
+  },
+  {
+    "id": 11,
+    "name": "TRANSPARENT SKELETON WATCH",
+    "brand": "TRENDIFY",
+    "price": 1899.0,
+    "old_price": 2499.0,
+    "image": "/static/images/watch.png",
+    "gallery_images": [
+      "/static/images/watch.png"
+    ],
+    "description": "Luxury transparent case skeleton watch with black silicone strap. Unique see-through mechanical design.",
+    "ratings": 4.9,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 24,
+    "in_stock": true
+  },
+  {
+    "id": 12,
+    "name": "BLACK CHRONOGRAPH WATCH SET",
+    "brand": "TRENDIFY",
+    "price": 899.0,
+    "old_price": 1299.0,
+    "image": "/static/images/watch1.png",
+    "gallery_images": [
+      "/static/images/watch1.png",
+      "/static/images/watch6.png"
+    ],
+    "description": "Premium black chronograph watch with chain bracelet and ring set. Stainless steel finish with date display.",
+    "ratings": 4.6,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 13,
+    "name": "BLACK SILICONE CHRONOGRAPH",
+    "brand": "TRENDIFY",
+    "price": 749.0,
+    "old_price": 999.0,
+    "image": "/static/images/watch3.png",
+    "gallery_images": [
+      "/static/images/watch3.png"
+    ],
+    "description": "Matte black silicone strap chronograph watch. Lightweight, water-resistant style for everyday wear.",
+    "ratings": 4.5,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 25,
+    "in_stock": true
+  },
+  {
+    "id": 14,
+    "name": "CLASSIC GOLD TANK WATCH",
+    "brand": "TRENDIFY",
+    "price": 2199.0,
+    "old_price": 2999.0,
+    "image": "/static/images/watch4.png",
+    "gallery_images": [
+      "/static/images/watch4.png"
+    ],
+    "description": "Elegant gold-tone rectangular tank watch with Roman numerals and black leather strap. Timeless formal look.",
+    "ratings": 4.8,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 27,
+    "in_stock": true
+  },
+  {
+    "id": 15,
+    "name": "SMART JUBILE BLACK WATCH",
+    "brand": "TRENDIFY",
+    "price": 599.0,
+    "old_price": 899.0,
+    "image": "/static/images/watch5.png",
+    "gallery_images": [
+      "/static/images/watch5.png"
+    ],
+    "description": "Sleek black analog watch with crystal markers and brown strap. Simple elegant design for men and women.",
+    "ratings": 4.3,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 16,
+    "name": "POSH BLACK WATCH GIFT SET",
+    "brand": "TRENDIFY",
+    "price": 999.0,
+    "old_price": 1499.0,
+    "image": "/static/images/watch6.png",
+    "gallery_images": [
+      "/static/images/watch6.png"
+    ],
+    "description": "Complete black watch gift set with bracelet and ring. Chronograph dial, premium boxed packaging style.",
+    "ratings": 4.7,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 17,
+    "name": "ARABIC DIAL LUXURY WATCH",
+    "brand": "TRENDIFY",
+    "price": 1799.0,
+    "old_price": 2499.0,
+    "image": "/static/images/watch7.png",
+    "gallery_images": [
+      "/static/images/watch7.png"
+    ],
+    "description": "Modern luxury watch with Arabic numerals. Available style in gold, silver and white marble finishes.",
+    "ratings": 4.8,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 28,
+    "in_stock": true
+  },
+  {
+    "id": 18,
+    "name": "PARIS TRACKSUIT SET",
+    "brand": "TRENDIFY",
+    "price": 1499.0,
+    "old_price": 2199.0,
+    "image": "/static/images/shirt.png",
+    "gallery_images": [
+      "/static/images/shirt.png"
+    ],
+    "description": "Black Paris printed t-shirt and trouser tracksuit set. Comfortable fabric for casual wear and workouts.",
+    "ratings": 4.6,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 32,
+    "in_stock": true
+  },
+  {
+    "id": 19,
+    "name": "CLASSIC LOGO T-SHIRT 3PCS",
+    "brand": "TRENDIFY",
+    "price": 1299.0,
+    "old_price": 1899.0,
+    "image": "/static/images/shirt1.png",
+    "gallery_images": [
+      "/static/images/shirt1.png"
+    ],
+    "description": "Pack of stylish logo t-shirts in black, white and blue. Soft cotton feel, regular fit.",
+    "ratings": 4.5,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 32,
+    "in_stock": true
+  },
+  {
+    "id": 20,
+    "name": "TEAL LONG SLEEVE T-SHIRT",
+    "brand": "TRENDIFY",
+    "price": 899.0,
+    "old_price": 1299.0,
+    "image": "/static/images/shirt3.png",
+    "gallery_images": [
+      "/static/images/shirt3.png"
+    ],
+    "description": "Premium teal long sleeve round neck t-shirt. Soft fabric, perfect for casual and layering.",
+    "ratings": 4.4,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 21,
+    "name": "MONEY HEIST TRACKSUIT SET",
+    "brand": "TRENDIFY",
+    "price": 1699.0,
+    "old_price": 2499.0,
+    "image": "/static/images/shirt4.png",
+    "gallery_images": [
+      "/static/images/shirt4.png"
+    ],
+    "description": "Money Heist themed black tracksuit set - t-shirt, shorts and joggers. Unique print, comfortable fit.",
+    "ratings": 4.7,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 32,
+    "in_stock": true
+  },
+  {
+    "id": 22,
+    "name": "GREY GEOMETRIC PRINT T-SHIRT",
+    "brand": "TRENDIFY",
+    "price": 699.0,
+    "old_price": 999.0,
+    "image": "/static/images/shirt5.png",
+    "gallery_images": [
+      "/static/images/shirt5.png"
+    ],
+    "description": "Modern grey t-shirt with geometric black and white print. Casual street style look.",
+    "ratings": 4.3,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 23,
+    "name": "WHITE FORMAL DRESS SHIRT",
+    "brand": "TRENDIFY",
+    "price": 1199.0,
+    "old_price": 1699.0,
+    "image": "/static/images/shirt6.png",
+    "gallery_images": [
+      "/static/images/shirt6.png"
+    ],
+    "description": "Classic white formal dress shirt. Crisp collar, office and event ready. Regular fit.",
+    "ratings": 4.6,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 24,
+    "name": "SANDAL BEAUTY CREAM",
+    "brand": "SANDAL",
+    "price": 360.0,
+    "old_price": 450.0,
+    "image": "/static/images/sandal.png",
+    "gallery_images": [
+      "/static/images/sandal.png"
+    ],
+    "description": "Natural Sandal Beauty Cream for fair soft glowing skin. Enriched with sandalwood extract. All skin types.",
+    "ratings": 4.3,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 20,
+    "in_stock": true
+  },
+  {
+    "id": 25,
+    "name": "FLOKA SILK TOUCH CREAM",
+    "brand": "FLOKA",
+    "price": 499.0,
+    "old_price": 699.0,
+    "image": "/static/images/cream.png",
+    "gallery_images": [
+      "/static/images/cream.png"
+    ],
+    "description": "Floka Silk Touch body cream with coconut essence. Deep moisturizing formula for soft smooth skin.",
+    "ratings": 4.5,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 26,
+    "name": "KAIYA FLORAL HAND CREAM SET",
+    "brand": "KAIYA BEAUTY",
+    "price": 599.0,
+    "old_price": 899.0,
+    "image": "/static/images/cream1.png",
+    "gallery_images": [
+      "/static/images/cream1.png"
+    ],
+    "description": "Set of floral scent hand creams - rose, lavender, cherry and more. 30g tubes, nourishing formula.",
+    "ratings": 4.6,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 27,
+    "name": "HAND & FOOT CARE CREAM",
+    "brand": "CHEEK AND CHIN",
+    "price": 450.0,
+    "old_price": 650.0,
+    "image": "/static/images/cream2.png",
+    "gallery_images": [
+      "/static/images/cream2.png"
+    ],
+    "description": "Hand and foot care cream for all skin types. Softens rough skin, moisturizes and protects.",
+    "ratings": 4.4,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 28,
+    "name": "NICONI MEN DE-TAN PACK",
+    "brand": "NICONI",
+    "price": 550.0,
+    "old_price": 799.0,
+    "image": "/static/images/cream3.png",
+    "gallery_images": [
+      "/static/images/cream3.png"
+    ],
+    "description": "Niconi Men Enzyme De-Tan Pack for face and body. Removes tan, brightens skin. 50g jar.",
+    "ratings": 4.5,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 29,
+    "name": "JOCKEY SHAVING FOAM",
+    "brand": "JOCKEY",
+    "price": 399.0,
+    "old_price": 549.0,
+    "image": "/static/images/cream4.png",
+    "gallery_images": [
+      "/static/images/cream4.png"
+    ],
+    "description": "Jockey shaving foam for smooth comfortable shave. Rich lather, protects skin from razor burn.",
+    "ratings": 4.4,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 27,
+    "in_stock": true
+  },
+  {
+    "id": 30,
+    "name": "IKT HAIR WAX STICK",
+    "brand": "IKT",
+    "price": 449.0,
+    "old_price": 649.0,
+    "image": "/static/images/hair.png",
+    "gallery_images": [
+      "/static/images/hair.png"
+    ],
+    "description": "IKT wax stick for flyaways and edge control. 75g, adds texture and hold for neat hairstyles.",
+    "ratings": 4.6,
+    "category": "Hair Care",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 31,
+    "name": "SILICONE SHAMPOO BRUSH",
+    "brand": "TRENDIFY",
+    "price": 299.0,
+    "old_price": 449.0,
+    "image": "/static/images/hair1.png",
+    "gallery_images": [
+      "/static/images/hair1.png"
+    ],
+    "description": "Soft silicone scalp massage shampoo brush. Deep cleans scalp, improves blood circulation.",
+    "ratings": 4.5,
+    "category": "Hair Care",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 32,
+    "name": "HAIR OIL APPLICATOR BOTTLE",
+    "brand": "TRENDIFY",
+    "price": 349.0,
+    "old_price": 499.0,
+    "image": "/static/images/hair2.png",
+    "gallery_images": [
+      "/static/images/hair2.png"
+    ],
+    "description": "Hair oil applicator bottle with comb tip and scalp massager. Easy oiling without mess.",
+    "ratings": 4.4,
+    "category": "Hair Care",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 33,
+    "name": "ROOT TOUCH-UP HAIR STICK",
+    "brand": "TRENDIFY",
+    "price": 499.0,
+    "old_price": 799.0,
+    "image": "/static/images/hair3.png",
+    "gallery_images": [
+      "/static/images/hair3.png"
+    ],
+    "description": "Instant root touch-up stick for grey coverage. Easy to apply, natural looking temporary color.",
+    "ratings": 4.3,
+    "category": "Hair Care",
+    "variants": [],
+    "discount_percent": 38,
+    "in_stock": true
+  },
+  {
+    "id": 34,
+    "name": "DR ALIES BEARD GROWTH OIL",
+    "brand": "DR ALIES",
+    "price": 699.0,
+    "old_price": 999.0,
+    "image": "/static/images/oil.png",
+    "gallery_images": [
+      "/static/images/oil.png"
+    ],
+    "description": "Dr Alies Professional Beard Growth Oil 30ml. Natural formula, sulfate free, for all skin types.",
+    "ratings": 4.7,
+    "category": "Hair Care",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 35,
+    "name": "SAMSUNG GALAXY A-SERIES PHONE",
+    "brand": "SAMSUNG",
+    "price": 24999.0,
+    "old_price": 29999.0,
+    "image": "/static/images/samsung.png",
+    "gallery_images": [
+      "/static/images/samsung.png"
+    ],
+    "description": "Samsung Galaxy A-series smartphone. Dual camera, large display, reliable performance for daily use.",
+    "ratings": 4.5,
+    "category": "Electronics",
+    "variants": [],
+    "discount_percent": 17,
+    "in_stock": true
+  },
+  {
+    "id": 36,
+    "name": "SAMSUNG GALAXY S22 ULTRA",
+    "brand": "SAMSUNG",
+    "price": 189999.0,
+    "old_price": 229999.0,
+    "image": "/static/images/samsung1.png",
+    "gallery_images": [
+      "/static/images/samsung1.png"
+    ],
+    "description": "Samsung Galaxy S22 Ultra flagship. S Pen support, pro camera system, premium design in multiple colors.",
+    "ratings": 4.9,
+    "category": "Electronics",
+    "variants": [],
+    "discount_percent": 17,
+    "in_stock": true
+  }
+]
