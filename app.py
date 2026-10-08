@@ -10,7 +10,11 @@ app.secret_key = os.environ.get('SECRET_KEY', 'trendify_professional_secret_2026
 # ============================================================
 # PRODUCT STORAGE (JSON file - permanent save)
 # ============================================================
-DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
+# Prefer /data when Railway Volume is mounted (survives restarts)
+if os.path.isdir('/data'):
+    DATA_DIR = '/data'
+else:
+    DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
 PRODUCTS_FILE = os.path.join(DATA_DIR, 'products.json')
 ORDERS_FILE = os.path.join(DATA_DIR, 'orders.json')
 
@@ -1060,6 +1064,45 @@ def delete_product(product_id):
     else:
         flash('Product not found!', 'danger')
     return redirect(url_for('home'))
+
+
+
+@app.route('/admin/export_products')
+@login_required
+def export_products():
+    """Download products.json backup — save this file on your computer."""
+    from flask import Response
+    payload = json.dumps(PRODUCTS, ensure_ascii=False, indent=2)
+    return Response(
+        payload,
+        mimetype='application/json',
+        headers={'Content-Disposition': 'attachment; filename=products_backup.json'}
+    )
+
+
+@app.route('/admin/import_products', methods=['GET', 'POST'])
+@login_required
+def import_products():
+    """Upload a products_backup.json to restore all products."""
+    global PRODUCTS
+    if request.method == 'POST':
+        f = request.files.get('file')
+        if not f or not f.filename:
+            flash('Please choose a JSON file.', 'danger')
+            return redirect(url_for('import_products'))
+        try:
+            data = json.load(f.stream)
+            if not isinstance(data, list) or len(data) == 0:
+                flash('Invalid file: expected a non-empty product list.', 'danger')
+                return redirect(url_for('import_products'))
+            PRODUCTS = data
+            save_products(PRODUCTS)
+            flash(f'Restored {len(PRODUCTS)} products successfully!', 'success')
+            return redirect(url_for('home'))
+        except Exception as e:
+            flash(f'Import failed: {e}', 'danger')
+            return redirect(url_for('import_products'))
+    return render_template('import_products.html')
 
 
 if __name__ == '__main__':
