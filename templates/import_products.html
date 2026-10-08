@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Import Products | TRENDIFY{% endblock %}
+{% block content %}
+<div class="container py-5" style="max-width:560px;">
+  <h2 class="mb-4">Import / Restore Products</h2>
+  <p class="text-muted">Upload a <code>products_backup.json</code> file (from Export) to restore all products after a server restart.</p>
+  <form method="POST" enctype="multipart/form-data" class="border p-4 bg-light">
+    <div class="mb-3">
+      <label class="form-label fw-bold">JSON file</label>
+      <input type="file" name="file" accept=".json,application/json" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-dark">Import Products</button>
+    <a href="{{ url_for('home') }}" class="btn btn-outline-secondary">Cancel</a>
+  </form>
+  <hr class="my-4">
+  <p class="small text-muted mb-1">Backup download:</p>
+  <a href="{{ url_for('export_products') }}" class="btn btn-outline-dark btn-sm">Download products_backup.json</a>
+</div>
+{% endblock %}
