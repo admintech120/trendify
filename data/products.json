@@ -515,9 +515,9 @@
     "brand": "TRENDIFY",
     "price": 1299.0,
     "old_price": 1899.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/watch.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/watch.png"
     ],
     "description": "Premium quality minimal silver watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.8,
