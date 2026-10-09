@@ -1,35 +1,33 @@
-
 [
   {
     "id": 1,
-    "name": "CASUAL SPORT SHOES - FASHION PRINT",
+    "name": "CASUAL WHITE SNEAKERS",
     "brand": "TRENDIFY",
-    "price": 1499.0,
-    "old_price": 1899.0,
-    "image": "/static/images/shoe1.png",
+    "price": 1299.0,
+    "old_price": 1799.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/shoe1.png",
-      "/static/images/shoe3.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Stylish white navy beige casual sneakers with artistic print. Soft cushioning, durable sole. Perfect for daily wear.",
-    "ratings": 4.8,
+    "description": "Premium quality casual white sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
     "category": "Shoes",
     "variants": [],
-    "discount_percent": 21,
+    "discount_percent": 27,
     "in_stock": true
   },
   {
     "id": 2,
-    "name": "FLK SPOT BLACK SNEAKERS",
+    "name": "BLACK MESH RUNNERS",
     "brand": "TRENDIFY",
     "price": 1199.0,
     "old_price": 1599.0,
-    "image": "/static/images/shoe2.png",
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/shoe2.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Lightweight black mesh sports sneakers with reflective stripes. Breathable and comfortable for running and casual use.",
-    "ratings": 4.6,
+    "description": "Premium quality black mesh runners from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6000000000000005,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 25,
@@ -37,425 +35,1205 @@
   },
   {
     "id": 3,
-    "name": "WAVE PRINT CASUAL SNEAKERS",
+    "name": "NAVY SPORT SHOES",
     "brand": "TRENDIFY",
-    "price": 1599.0,
-    "old_price": 1999.0,
-    "image": "/static/images/shoe3.png",
+    "price": 1399.0,
+    "old_price": 1899.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/shoe3.png",
-      "/static/images/shoe1.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Premium casual sneakers with Japanese wave art print. Navy white beige design, thick sole for comfort.",
+    "description": "Premium quality navy sport shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
     "category": "Shoes",
     "variants": [],
-    "discount_percent": 20,
+    "discount_percent": 26,
     "in_stock": true
   },
   {
     "id": 4,
-    "name": "BLACK SPORT RUNNERS",
+    "name": "BROWN LEATHER CASUAL",
     "brand": "TRENDIFY",
-    "price": 1299.0,
-    "old_price": 1699.0,
-    "image": "/static/images/shoe4.png",
+    "price": 2499.0,
+    "old_price": 3499.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/shoe4.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Breathable mesh black runners with anti-slip sole. Lightweight design for daily walking and light workouts.",
-    "ratings": 4.5,
+    "description": "Premium quality brown leather casual from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.800000000000001,
     "category": "Shoes",
     "variants": [],
-    "discount_percent": 24,
+    "discount_percent": 28,
     "in_stock": true
   },
   {
     "id": 5,
-    "name": "BROWN WHITE CLASSIC SNEAKERS",
+    "name": "SLIP-ON COMFORT SHOES",
     "brand": "TRENDIFY",
-    "price": 1699.0,
-    "old_price": 2199.0,
-    "image": "/static/images/shoe5.png",
+    "price": 999.0,
+    "old_price": 1499.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/shoe5.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Trendy brown and white low-top sneakers. Clean design, comfortable fit for casual and semi-formal looks.",
-    "ratings": 4.8,
+    "description": "Premium quality slip-on comfort shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
     "category": "Shoes",
     "variants": [],
-    "discount_percent": 23,
+    "discount_percent": 33,
     "in_stock": true
   },
   {
     "id": 6,
-    "name": "NAVY BLUE SPORT SHOES",
+    "name": "HIGH TOP SNEAKERS",
     "brand": "TRENDIFY",
-    "price": 1399.0,
-    "old_price": 1799.0,
-    "image": "/static/images/shoe6.png",
+    "price": 1699.0,
+    "old_price": 2299.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/shoe6.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Navy blue mesh sports shoes with white wave design and orange inner. Durable and stylish for everyday use.",
-    "ratings": 4.6,
+    "description": "Premium quality high top sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
     "category": "Shoes",
     "variants": [],
-    "discount_percent": 22,
+    "discount_percent": 26,
     "in_stock": true
   },
   {
     "id": 7,
-    "name": "PURE WHITE CLASSIC SNEAKERS",
+    "name": "WALKING SHOES MEN",
     "brand": "TRENDIFY",
-    "price": 1249.0,
+    "price": 1149.0,
     "old_price": 1599.0,
-    "image": "/static/images/shoe7.png",
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/shoe7.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Clean all-white classic sneakers. Minimal design that goes with every outfit. Soft sole and easy to clean.",
-    "ratings": 4.7,
+    "description": "Premium quality walking shoes men from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6000000000000005,
     "category": "Shoes",
     "variants": [],
-    "discount_percent": 22,
+    "discount_percent": 28,
     "in_stock": true
   },
   {
     "id": 8,
-    "name": "BLACK SLIP-ON SPORTS SHOES",
+    "name": "GYM TRAINING SHOES",
     "brand": "TRENDIFY",
-    "price": 999.0,
-    "old_price": 1399.0,
-    "image": "/static/images/shoe8.png",
+    "price": 1599.0,
+    "old_price": 2199.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/shoe8.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Comfortable black mesh slip-on shoes. No laces needed. Ideal for quick wear and casual outings.",
-    "ratings": 4.4,
-    "category": "Shoes",
-    "variants": [],
-    "discount_percent": 29,
-    "in_stock": true
-  },
-  {
-    "id": 9,
-    "name": "BLACK WHITE LOW-TOP SNEAKERS",
-    "brand": "TRENDIFY",
-    "price": 1549.0,
-    "old_price": 1999.0,
-    "image": "/static/images/shoe9.png",
-    "gallery_images": [
-      "/static/images/shoe9.png"
-    ],
-    "description": "Modern black and white low-top sneakers. Street style look with cushioned sole.",
+    "description": "Premium quality gym training shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
     "category": "Shoes",
-    "variants": [],
-    "discount_percent": 23,
-    "in_stock": true
-  },
-  {
-    "id": 10,
-    "name": "BROWN SPORT RUNNERS",
-    "brand": "TRENDIFY",
-    "price": 1349.0,
-    "old_price": 1749.0,
-    "image": "/static/images/shoe10.png",
-    "gallery_images": [
-      "/static/images/shoe10.png"
-    ],
-    "description": "Brown mesh sports runners with white sole. Breathable, anti-slip, durable build for daily use.",
-    "ratings": 4.5,
-    "category": "Shoes",
-    "variants": [],
-    "discount_percent": 23,
-    "in_stock": true
-  },
-  {
-    "id": 11,
-    "name": "TRANSPARENT SKELETON WATCH",
-    "brand": "TRENDIFY",
-    "price": 1899.0,
-    "old_price": 2499.0,
-    "image": "/static/images/watch.png",
-    "gallery_images": [
-      "/static/images/watch.png"
-    ],
-    "description": "Luxury transparent case skeleton watch with black silicone strap. Unique see-through mechanical design.",
-    "ratings": 4.9,
-    "category": "Watches",
-    "variants": [],
-    "discount_percent": 24,
-    "in_stock": true
-  },
-  {
-    "id": 12,
-    "name": "BLACK CHRONOGRAPH WATCH SET",
-    "brand": "TRENDIFY",
-    "price": 899.0,
-    "old_price": 1299.0,
-    "image": "/static/images/watch1.png",
-    "gallery_images": [
-      "/static/images/watch1.png",
-      "/static/images/watch6.png"
-    ],
-    "description": "Premium black chronograph watch with chain bracelet and ring set. Stainless steel finish with date display.",
-    "ratings": 4.6,
-    "category": "Watches",
-    "variants": [],
-    "discount_percent": 31,
-    "in_stock": true
-  },
-  {
-    "id": 13,
-    "name": "BLACK SILICONE CHRONOGRAPH",
-    "brand": "TRENDIFY",
-    "price": 749.0,
-    "old_price": 999.0,
-    "image": "/static/images/watch3.png",
-    "gallery_images": [
-      "/static/images/watch3.png"
-    ],
-    "description": "Matte black silicone strap chronograph watch. Lightweight, water-resistant style for everyday wear.",
-    "ratings": 4.5,
-    "category": "Watches",
-    "variants": [],
-    "discount_percent": 25,
-    "in_stock": true
-  },
-  {
-    "id": 14,
-    "name": "CLASSIC GOLD TANK WATCH",
-    "brand": "TRENDIFY",
-    "price": 2199.0,
-    "old_price": 2999.0,
-    "image": "/static/images/watch4.png",
-    "gallery_images": [
-      "/static/images/watch4.png"
-    ],
-    "description": "Elegant gold-tone rectangular tank watch with Roman numerals and black leather strap. Timeless formal look.",
-    "ratings": 4.8,
-    "category": "Watches",
     "variants": [],
     "discount_percent": 27,
     "in_stock": true
   },
   {
-    "id": 15,
-    "name": "SMART JUBILE BLACK WATCH",
+    "id": 9,
+    "name": "FORMAL OFFICE SHOES",
     "brand": "TRENDIFY",
-    "price": 599.0,
-    "old_price": 899.0,
-    "image": "/static/images/watch5.png",
+    "price": 2899.0,
+    "old_price": 3999.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/watch5.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Sleek black analog watch with crystal markers and brown strap. Simple elegant design for men and women.",
-    "ratings": 4.3,
-    "category": "Watches",
+    "description": "Premium quality formal office shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.800000000000001,
+    "category": "Shoes",
     "variants": [],
-    "discount_percent": 33,
+    "discount_percent": 27,
+    "in_stock": true
+  },
+  {
+    "id": 10,
+    "name": "KIDS SPORT SNEAKERS",
+    "brand": "TRENDIFY",
+    "price": 899.0,
+    "old_price": 1299.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality kids sport sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 11,
+    "name": "CHUNKY SOLE SNEAKERS",
+    "brand": "TRENDIFY",
+    "price": 1799.0,
+    "old_price": 2499.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality chunky sole sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 28,
+    "in_stock": true
+  },
+  {
+    "id": 12,
+    "name": "CANVAS LOW TOP",
+    "brand": "TRENDIFY",
+    "price": 1099.0,
+    "old_price": 1499.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality canvas low top from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6000000000000005,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 26,
+    "in_stock": true
+  },
+  {
+    "id": 13,
+    "name": "RUNNING PRO SHOES",
+    "brand": "TRENDIFY",
+    "price": 1899.0,
+    "old_price": 2599.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality running pro shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 26,
+    "in_stock": true
+  },
+  {
+    "id": 14,
+    "name": "SUEDE CASUAL MOCCASIN",
+    "brand": "TRENDIFY",
+    "price": 2199.0,
+    "old_price": 2999.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality suede casual moccasin from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.800000000000001,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 26,
+    "in_stock": true
+  },
+  {
+    "id": 15,
+    "name": "ORANGE ACCENT RUNNERS",
+    "brand": "TRENDIFY",
+    "price": 1349.0,
+    "old_price": 1849.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality orange accent runners from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 27,
     "in_stock": true
   },
   {
     "id": 16,
-    "name": "POSH BLACK WATCH GIFT SET",
+    "name": "ALL BLACK STREET SHOES",
     "brand": "TRENDIFY",
-    "price": 999.0,
-    "old_price": 1499.0,
-    "image": "/static/images/watch6.png",
+    "price": 1249.0,
+    "old_price": 1699.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/watch6.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Complete black watch gift set with bracelet and ring. Chronograph dial, premium boxed packaging style.",
-    "ratings": 4.7,
-    "category": "Watches",
+    "description": "Premium quality all black street shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Shoes",
     "variants": [],
-    "discount_percent": 33,
+    "discount_percent": 26,
     "in_stock": true
   },
   {
     "id": 17,
-    "name": "ARABIC DIAL LUXURY WATCH",
+    "name": "WHITE PLATFORM SNEAKERS",
     "brand": "TRENDIFY",
-    "price": 1799.0,
-    "old_price": 2499.0,
-    "image": "/static/images/watch7.png",
+    "price": 1999.0,
+    "old_price": 2799.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/watch7.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Modern luxury watch with Arabic numerals. Available style in gold, silver and white marble finishes.",
-    "ratings": 4.8,
-    "category": "Watches",
+    "description": "Premium quality white platform sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6000000000000005,
+    "category": "Shoes",
     "variants": [],
     "discount_percent": 28,
     "in_stock": true
   },
   {
     "id": 18,
-    "name": "PARIS TRACKSUIT SET",
+    "name": "TRAIL HIKING SHOES",
     "brand": "TRENDIFY",
-    "price": 1499.0,
-    "old_price": 2199.0,
-    "image": "/static/images/shirt.png",
+    "price": 2699.0,
+    "old_price": 3599.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/shirt.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Black Paris printed t-shirt and trouser tracksuit set. Comfortable fabric for casual wear and workouts.",
-    "ratings": 4.6,
-    "category": "Clothing",
+    "description": "Premium quality trail hiking shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Shoes",
     "variants": [],
-    "discount_percent": 32,
+    "discount_percent": 25,
     "in_stock": true
   },
   {
     "id": 19,
-    "name": "CLASSIC LOGO T-SHIRT 3PCS",
-    "brand": "TRENDIFY",
-    "price": 1299.0,
-    "old_price": 1899.0,
-    "image": "/static/images/shirt1.png",
-    "gallery_images": [
-      "/static/images/shirt1.png"
-    ],
-    "description": "Pack of stylish logo t-shirts in black, white and blue. Soft cotton feel, regular fit.",
-    "ratings": 4.5,
-    "category": "Clothing",
-    "variants": [],
-    "discount_percent": 32,
-    "in_stock": true
-  },
-  {
-    "id": 20,
-    "name": "TEAL LONG SLEEVE T-SHIRT",
-    "brand": "TRENDIFY",
-    "price": 899.0,
-    "old_price": 1299.0,
-    "image": "/static/images/shirt3.png",
-    "gallery_images": [
-      "/static/images/shirt3.png"
-    ],
-    "description": "Premium teal long sleeve round neck t-shirt. Soft fabric, perfect for casual and layering.",
-    "ratings": 4.4,
-    "category": "Clothing",
-    "variants": [],
-    "discount_percent": 31,
-    "in_stock": true
-  },
-  {
-    "id": 21,
-    "name": "MONEY HEIST TRACKSUIT SET",
-    "brand": "TRENDIFY",
-    "price": 1699.0,
-    "old_price": 2499.0,
-    "image": "/static/images/shirt4.png",
-    "gallery_images": [
-      "/static/images/shirt4.png"
-    ],
-    "description": "Money Heist themed black tracksuit set - t-shirt, shorts and joggers. Unique print, comfortable fit.",
-    "ratings": 4.7,
-    "category": "Clothing",
-    "variants": [],
-    "discount_percent": 32,
-    "in_stock": true
-  },
-  {
-    "id": 22,
-    "name": "GREY GEOMETRIC PRINT T-SHIRT",
+    "name": "SOFT FOAM SLIDES",
     "brand": "TRENDIFY",
     "price": 699.0,
     "old_price": 999.0,
-    "image": "/static/images/shirt5.png",
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/shirt5.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Modern grey t-shirt with geometric black and white print. Casual street style look.",
-    "ratings": 4.3,
-    "category": "Clothing",
+    "description": "Premium quality soft foam slides from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.800000000000001,
+    "category": "Shoes",
     "variants": [],
     "discount_percent": 30,
     "in_stock": true
   },
   {
-    "id": 23,
-    "name": "WHITE FORMAL DRESS SHIRT",
+    "id": 20,
+    "name": "ANIMAL PRINT SNEAKERS",
     "brand": "TRENDIFY",
-    "price": 1199.0,
-    "old_price": 1699.0,
-    "image": "/static/images/shirt6.png",
+    "price": 1499.0,
+    "old_price": 2099.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/shirt6.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Classic white formal dress shirt. Crisp collar, office and event ready. Regular fit.",
-    "ratings": 4.6,
-    "category": "Clothing",
+    "description": "Premium quality animal print sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 28,
+    "in_stock": true
+  },
+  {
+    "id": 21,
+    "name": "CLASSIC LOAFERS",
+    "brand": "TRENDIFY",
+    "price": 2399.0,
+    "old_price": 3299.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality classic loafers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 27,
+    "in_stock": true
+  },
+  {
+    "id": 22,
+    "name": "KNIT SOCK SNEAKERS",
+    "brand": "TRENDIFY",
+    "price": 1299.0,
+    "old_price": 1799.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality knit sock sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6000000000000005,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 27,
+    "in_stock": true
+  },
+  {
+    "id": 23,
+    "name": "VELCRO SPORT SHOES",
+    "brand": "TRENDIFY",
+    "price": 949.0,
+    "old_price": 1349.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality velcro sport shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Shoes",
     "variants": [],
     "discount_percent": 29,
     "in_stock": true
   },
   {
     "id": 24,
+    "name": "DUAL TONE CASUAL",
+    "brand": "TRENDIFY",
+    "price": 1549.0,
+    "old_price": 2149.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality dual tone casual from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.800000000000001,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 27,
+    "in_stock": true
+  },
+  {
+    "id": 25,
+    "name": "LIGHTWEIGHT JOGGERS",
+    "brand": "TRENDIFY",
+    "price": 1179.0,
+    "old_price": 1579.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality lightweight joggers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Shoes",
+    "variants": [],
+    "discount_percent": 25,
+    "in_stock": true
+  },
+  {
+    "id": 26,
+    "name": "CLASSIC LEATHER STRAP WATCH",
+    "brand": "TRENDIFY",
+    "price": 1499.0,
+    "old_price": 2199.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality classic leather strap watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 27,
+    "name": "BLACK CHRONOGRAPH WATCH",
+    "brand": "TRENDIFY",
+    "price": 1899.0,
+    "old_price": 2699.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality black chronograph watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.8,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 28,
+    "name": "GOLD TONE DRESS WATCH",
+    "brand": "TRENDIFY",
+    "price": 2299.0,
+    "old_price": 3299.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality gold tone dress watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 29,
+    "name": "SILICONE SPORT WATCH",
+    "brand": "TRENDIFY",
+    "price": 899.0,
+    "old_price": 1299.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality silicone sport watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 30,
+    "name": "SKELETON AUTOMATIC STYLE",
+    "brand": "TRENDIFY",
+    "price": 2799.0,
+    "old_price": 3999.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality skeleton automatic style from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 31,
+    "name": "MINIMAL SILVER WATCH",
+    "brand": "TRENDIFY",
+    "price": 1299.0,
+    "old_price": 1899.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality minimal silver watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.8,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 32,
+    "name": "DUAL TIME ZONE WATCH",
+    "brand": "TRENDIFY",
+    "price": 1999.0,
+    "old_price": 2899.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality dual time zone watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 33,
+    "name": "ROSE GOLD LADIES WATCH",
+    "brand": "TRENDIFY",
+    "price": 1699.0,
+    "old_price": 2499.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality rose gold ladies watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 32,
+    "in_stock": true
+  },
+  {
+    "id": 34,
+    "name": "DIGITAL SPORT WATCH",
+    "brand": "TRENDIFY",
+    "price": 799.0,
+    "old_price": 1199.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality digital sport watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 35,
+    "name": "MESH BRACELET WATCH",
+    "brand": "TRENDIFY",
+    "price": 1599.0,
+    "old_price": 2299.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality mesh bracelet watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.8,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 36,
+    "name": "SQUARE TANK WATCH",
+    "brand": "TRENDIFY",
+    "price": 2199.0,
+    "old_price": 3099.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality square tank watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 37,
+    "name": "RUBBER STRAP DIVER STYLE",
+    "brand": "TRENDIFY",
+    "price": 1799.0,
+    "old_price": 2599.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality rubber strap diver style from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 38,
+    "name": "COUPLE WATCH SET",
+    "brand": "TRENDIFY",
+    "price": 2999.0,
+    "old_price": 4299.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality couple watch set from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 39,
+    "name": "SMART LOOK HYBRID WATCH",
+    "brand": "TRENDIFY",
+    "price": 3499.0,
+    "old_price": 4999.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality smart look hybrid watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.8,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 40,
+    "name": "VINTAGE BROWN WATCH",
+    "brand": "TRENDIFY",
+    "price": 1399.0,
+    "old_price": 1999.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality vintage brown watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 41,
+    "name": "STEEL BRACELET CHRONO",
+    "brand": "TRENDIFY",
+    "price": 2099.0,
+    "old_price": 2999.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality steel bracelet chrono from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 42,
+    "name": "SLIM FORMAL WATCH",
+    "brand": "TRENDIFY",
+    "price": 1199.0,
+    "old_price": 1699.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality slim formal watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 43,
+    "name": "KIDS CARTOON WATCH",
+    "brand": "TRENDIFY",
+    "price": 599.0,
+    "old_price": 899.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality kids cartoon watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.8,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 44,
+    "name": "LUXURY BOXED WATCH SET",
+    "brand": "TRENDIFY",
+    "price": 2499.0,
+    "old_price": 3599.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality luxury boxed watch set from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 45,
+    "name": "ARABIC DIAL WATCH",
+    "brand": "TRENDIFY",
+    "price": 1899.0,
+    "old_price": 2699.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality arabic dial watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Watches",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 46,
+    "name": "PLAIN BLACK T-SHIRT",
+    "brand": "TRENDIFY",
+    "price": 699.0,
+    "old_price": 999.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality plain black t-shirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.3999999999999995,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 47,
+    "name": "WHITE CREW NECK TEE",
+    "brand": "TRENDIFY",
+    "price": 699.0,
+    "old_price": 999.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality white crew neck tee from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 48,
+    "name": "NAVY POLO SHIRT",
+    "brand": "TRENDIFY",
+    "price": 1299.0,
+    "old_price": 1799.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality navy polo shirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 27,
+    "in_stock": true
+  },
+  {
+    "id": 49,
+    "name": "GREY HOODIE",
+    "brand": "TRENDIFY",
+    "price": 1899.0,
+    "old_price": 2699.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality grey hoodie from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 50,
+    "name": "BLACK TRACKSUIT SET",
+    "brand": "TRENDIFY",
+    "price": 2499.0,
+    "old_price": 3499.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality black tracksuit set from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.3,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 28,
+    "in_stock": true
+  },
+  {
+    "id": 51,
+    "name": "SLIM FIT JEANS",
+    "brand": "TRENDIFY",
+    "price": 2199.0,
+    "old_price": 2999.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality slim fit jeans from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.3999999999999995,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 26,
+    "in_stock": true
+  },
+  {
+    "id": 52,
+    "name": "CASUAL CHINO PANTS",
+    "brand": "TRENDIFY",
+    "price": 1799.0,
+    "old_price": 2499.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality casual chino pants from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 28,
+    "in_stock": true
+  },
+  {
+    "id": 53,
+    "name": "FORMAL WHITE SHIRT",
+    "brand": "TRENDIFY",
+    "price": 1499.0,
+    "old_price": 2099.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality formal white shirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 28,
+    "in_stock": true
+  },
+  {
+    "id": 54,
+    "name": "CHECK CASUAL SHIRT",
+    "brand": "TRENDIFY",
+    "price": 1399.0,
+    "old_price": 1899.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality check casual shirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 26,
+    "in_stock": true
+  },
+  {
+    "id": 55,
+    "name": "ZIPPER HOODIE",
+    "brand": "TRENDIFY",
+    "price": 1999.0,
+    "old_price": 2799.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality zipper hoodie from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.3,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 28,
+    "in_stock": true
+  },
+  {
+    "id": 56,
+    "name": "SPORT SHORTS",
+    "brand": "TRENDIFY",
+    "price": 899.0,
+    "old_price": 1299.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality sport shorts from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.3999999999999995,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 57,
+    "name": "3PCS T-SHIRT PACK",
+    "brand": "TRENDIFY",
+    "price": 1599.0,
+    "old_price": 2299.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality 3pcs t-shirt pack from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 58,
+    "name": "BOMBER JACKET",
+    "brand": "TRENDIFY",
+    "price": 2999.0,
+    "old_price": 4299.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality bomber jacket from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 59,
+    "name": "KNIT SWEATER",
+    "brand": "TRENDIFY",
+    "price": 1699.0,
+    "old_price": 2399.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality knit sweater from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 60,
+    "name": "CARGO JOGGERS",
+    "brand": "TRENDIFY",
+    "price": 1899.0,
+    "old_price": 2599.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality cargo joggers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.3,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 26,
+    "in_stock": true
+  },
+  {
+    "id": 61,
+    "name": "PRINTED GRAPHIC TEE",
+    "brand": "TRENDIFY",
+    "price": 849.0,
+    "old_price": 1199.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality printed graphic tee from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.3999999999999995,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 62,
+    "name": "LONG SLEEVE HENLEY",
+    "brand": "TRENDIFY",
+    "price": 1199.0,
+    "old_price": 1699.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality long sleeve henley from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 63,
+    "name": "DENIM JACKET",
+    "brand": "TRENDIFY",
+    "price": 2799.0,
+    "old_price": 3999.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality denim jacket from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 64,
+    "name": "SUMMER LINEN SHIRT",
+    "brand": "TRENDIFY",
+    "price": 1599.0,
+    "old_price": 2199.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality summer linen shirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 27,
+    "in_stock": true
+  },
+  {
+    "id": 65,
+    "name": "WOMEN BASIC TEE",
+    "brand": "TRENDIFY",
+    "price": 649.0,
+    "old_price": 949.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality women basic tee from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.3,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 66,
+    "name": "WOMEN WIDE LEG PANTS",
+    "brand": "TRENDIFY",
+    "price": 1699.0,
+    "old_price": 2399.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality women wide leg pants from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.3999999999999995,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 67,
+    "name": "KIDS HOODIE",
+    "brand": "TRENDIFY",
+    "price": 999.0,
+    "old_price": 1499.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality kids hoodie from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 68,
+    "name": "UNISEX OVERSIZED TEE",
+    "brand": "TRENDIFY",
+    "price": 999.0,
+    "old_price": 1399.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality unisex oversized tee from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 28,
+    "in_stock": true
+  },
+  {
+    "id": 69,
+    "name": "FLEECE SWEATSHIRT",
+    "brand": "TRENDIFY",
+    "price": 1799.0,
+    "old_price": 2499.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality fleece sweatshirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.7,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 28,
+    "in_stock": true
+  },
+  {
+    "id": 70,
+    "name": "TAILORED BLAZER",
+    "brand": "TRENDIFY",
+    "price": 3999.0,
+    "old_price": 5499.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality tailored blazer from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.3,
+    "category": "Clothing",
+    "variants": [],
+    "discount_percent": 27,
+    "in_stock": true
+  },
+  {
+    "id": 71,
     "name": "SANDAL BEAUTY CREAM",
     "brand": "SANDAL",
     "price": 360.0,
     "old_price": 450.0,
-    "image": "/static/images/sandal.png",
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/sandal.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Natural Sandal Beauty Cream for fair soft glowing skin. Enriched with sandalwood extract. All skin types.",
-    "ratings": 4.3,
+    "description": "Premium quality sandal beauty cream from SANDAL. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
     "category": "Beauty",
     "variants": [],
     "discount_percent": 20,
     "in_stock": true
   },
   {
-    "id": 25,
-    "name": "FLOKA SILK TOUCH CREAM",
-    "brand": "FLOKA",
-    "price": 499.0,
-    "old_price": 699.0,
-    "image": "/static/images/cream.png",
-    "gallery_images": [
-      "/static/images/cream.png"
-    ],
-    "description": "Floka Silk Touch body cream with coconut essence. Deep moisturizing formula for soft smooth skin.",
-    "ratings": 4.5,
-    "category": "Beauty",
-    "variants": [],
-    "discount_percent": 29,
-    "in_stock": true
-  },
-  {
-    "id": 26,
-    "name": "KAIYA FLORAL HAND CREAM SET",
-    "brand": "KAIYA BEAUTY",
-    "price": 599.0,
-    "old_price": 899.0,
-    "image": "/static/images/cream1.png",
-    "gallery_images": [
-      "/static/images/cream1.png"
-    ],
-    "description": "Set of floral scent hand creams - rose, lavender, cherry and more. 30g tubes, nourishing formula.",
-    "ratings": 4.6,
-    "category": "Beauty",
-    "variants": [],
-    "discount_percent": 33,
-    "in_stock": true
-  },
-  {
-    "id": 27,
-    "name": "HAND & FOOT CARE CREAM",
-    "brand": "CHEEK AND CHIN",
+    "id": 72,
+    "name": "FACE WASH ALOE",
+    "brand": "TRENDIFY",
     "price": 450.0,
     "old_price": 650.0,
-    "image": "/static/images/cream2.png",
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/cream2.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Hand and foot care cream for all skin types. Softens rough skin, moisturizes and protects.",
+    "description": "Premium quality face wash aloe from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 73,
+    "name": "MOISTURIZING LOTION",
+    "brand": "TRENDIFY",
+    "price": 550.0,
+    "old_price": 799.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality moisturizing lotion from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
     "category": "Beauty",
     "variants": [],
@@ -463,33 +1241,135 @@
     "in_stock": true
   },
   {
-    "id": 28,
-    "name": "NICONI MEN DE-TAN PACK",
+    "id": 74,
+    "name": "VITAMIN C SERUM",
+    "brand": "TRENDIFY",
+    "price": 899.0,
+    "old_price": 1299.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality vitamin c serum from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 75,
+    "name": "SUNSCREEN SPF 50",
+    "brand": "TRENDIFY",
+    "price": 699.0,
+    "old_price": 999.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality sunscreen spf 50 from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 76,
+    "name": "LIP BALM SET 3PCS",
+    "brand": "TRENDIFY",
+    "price": 399.0,
+    "old_price": 599.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality lip balm set 3pcs from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 77,
+    "name": "HAND CREAM TUBE",
+    "brand": "TRENDIFY",
+    "price": 349.0,
+    "old_price": 499.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality hand cream tube from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 78,
+    "name": "BODY SCRUB",
+    "brand": "TRENDIFY",
+    "price": 599.0,
+    "old_price": 849.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality body scrub from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 79,
+    "name": "FACE MASK SHEET 5PCS",
+    "brand": "TRENDIFY",
+    "price": 499.0,
+    "old_price": 749.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality face mask sheet 5pcs from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 80,
+    "name": "MEN DE-TAN CREAM",
     "brand": "NICONI",
     "price": 550.0,
     "old_price": 799.0,
-    "image": "/static/images/cream3.png",
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/cream3.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Niconi Men Enzyme De-Tan Pack for face and body. Removes tan, brightens skin. 50g jar.",
-    "ratings": 4.5,
+    "description": "Premium quality men de-tan cream from NICONI. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
     "category": "Beauty",
     "variants": [],
     "discount_percent": 31,
     "in_stock": true
   },
   {
-    "id": 29,
-    "name": "JOCKEY SHAVING FOAM",
+    "id": 81,
+    "name": "SHAVING FOAM",
     "brand": "JOCKEY",
     "price": 399.0,
     "old_price": 549.0,
-    "image": "/static/images/cream4.png",
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/cream4.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Jockey shaving foam for smooth comfortable shave. Rich lather, protects skin from razor burn.",
+    "description": "Premium quality shaving foam from JOCKEY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
     "category": "Beauty",
     "variants": [],
@@ -497,33 +1377,101 @@
     "in_stock": true
   },
   {
-    "id": 30,
-    "name": "IKT HAIR WAX STICK",
-    "brand": "IKT",
-    "price": 449.0,
-    "old_price": 649.0,
-    "image": "/static/images/hair.png",
+    "id": 82,
+    "name": "PERFUME 50ML",
+    "brand": "TRENDIFY",
+    "price": 1299.0,
+    "old_price": 1899.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/hair.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "IKT wax stick for flyaways and edge control. 75g, adds texture and hold for neat hairstyles.",
-    "ratings": 4.6,
-    "category": "Hair Care",
+    "description": "Premium quality perfume 50ml from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Beauty",
     "variants": [],
     "discount_percent": 31,
     "in_stock": true
   },
   {
-    "id": 31,
-    "name": "SILICONE SHAMPOO BRUSH",
+    "id": 83,
+    "name": "ROLL-ON DEODORANT",
     "brand": "TRENDIFY",
     "price": 299.0,
     "old_price": 449.0,
-    "image": "/static/images/hair1.png",
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/hair1.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Soft silicone scalp massage shampoo brush. Deep cleans scalp, improves blood circulation.",
+    "description": "Premium quality roll-on deodorant from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 84,
+    "name": "NIGHT CREAM",
+    "brand": "TRENDIFY",
+    "price": 749.0,
+    "old_price": 1099.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality night cream from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 85,
+    "name": "MAKEUP REMOVER",
+    "brand": "TRENDIFY",
+    "price": 449.0,
+    "old_price": 649.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality makeup remover from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.4,
+    "category": "Beauty",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 86,
+    "name": "HAIR WAX STICK",
+    "brand": "IKT",
+    "price": 449.0,
+    "old_price": 649.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality hair wax stick from IKT. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Hair Care",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 87,
+    "name": "SILICONE SCALP BRUSH",
+    "brand": "TRENDIFY",
+    "price": 299.0,
+    "old_price": 449.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality silicone scalp brush from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
     "category": "Hair Care",
     "variants": [],
@@ -531,88 +1479,343 @@
     "in_stock": true
   },
   {
-    "id": 32,
-    "name": "HAIR OIL APPLICATOR BOTTLE",
+    "id": 88,
+    "name": "HAIR OIL APPLICATOR",
     "brand": "TRENDIFY",
     "price": 349.0,
     "old_price": 499.0,
-    "image": "/static/images/hair2.png",
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/hair2.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Hair oil applicator bottle with comb tip and scalp massager. Easy oiling without mess.",
-    "ratings": 4.4,
+    "description": "Premium quality hair oil applicator from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
     "category": "Hair Care",
     "variants": [],
     "discount_percent": 30,
     "in_stock": true
   },
   {
-    "id": 33,
-    "name": "ROOT TOUCH-UP HAIR STICK",
+    "id": 89,
+    "name": "ROOT TOUCH-UP STICK",
     "brand": "TRENDIFY",
     "price": 499.0,
     "old_price": 799.0,
-    "image": "/static/images/hair3.png",
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/hair3.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Instant root touch-up stick for grey coverage. Easy to apply, natural looking temporary color.",
-    "ratings": 4.3,
+    "description": "Premium quality root touch-up stick from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
     "category": "Hair Care",
     "variants": [],
-    "discount_percent": 38,
+    "discount_percent": 37,
     "in_stock": true
   },
   {
-    "id": 34,
-    "name": "DR ALIES BEARD GROWTH OIL",
+    "id": 90,
+    "name": "BEARD GROWTH OIL",
     "brand": "DR ALIES",
     "price": 699.0,
     "old_price": 999.0,
-    "image": "/static/images/oil.png",
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/oil.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Dr Alies Professional Beard Growth Oil 30ml. Natural formula, sulfate free, for all skin types.",
-    "ratings": 4.7,
+    "description": "Premium quality beard growth oil from DR ALIES. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
     "category": "Hair Care",
     "variants": [],
     "discount_percent": 30,
     "in_stock": true
   },
   {
-    "id": 35,
-    "name": "SAMSUNG GALAXY A-SERIES PHONE",
-    "brand": "SAMSUNG",
-    "price": 24999.0,
-    "old_price": 29999.0,
-    "image": "/static/images/samsung.png",
+    "id": 91,
+    "name": "ARGAN HAIR OIL 100ML",
+    "brand": "TRENDIFY",
+    "price": 599.0,
+    "old_price": 899.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/samsung.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Samsung Galaxy A-series smartphone. Dual camera, large display, reliable performance for daily use.",
+    "description": "Premium quality argan hair oil 100ml from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
-    "category": "Electronics",
+    "category": "Hair Care",
     "variants": [],
-    "discount_percent": 17,
+    "discount_percent": 33,
     "in_stock": true
   },
   {
-    "id": 36,
-    "name": "SAMSUNG GALAXY S22 ULTRA",
-    "brand": "SAMSUNG",
-    "price": 189999.0,
-    "old_price": 229999.0,
-    "image": "/static/images/samsung1.png",
+    "id": 92,
+    "name": "ANTI DANDRUFF SHAMPOO",
+    "brand": "TRENDIFY",
+    "price": 549.0,
+    "old_price": 799.0,
+    "image": "/static/images/no-image.svg",
     "gallery_images": [
-      "/static/images/samsung1.png"
+      "/static/images/no-image.svg"
     ],
-    "description": "Samsung Galaxy S22 Ultra flagship. S Pen support, pro camera system, premium design in multiple colors.",
-    "ratings": 4.9,
+    "description": "Premium quality anti dandruff shampoo from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Hair Care",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 93,
+    "name": "HAIR SERUM SHINE",
+    "brand": "TRENDIFY",
+    "price": 649.0,
+    "old_price": 949.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality hair serum shine from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Hair Care",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 94,
+    "name": "BEARD COMB SET",
+    "brand": "TRENDIFY",
+    "price": 399.0,
+    "old_price": 599.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality beard comb set from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Hair Care",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 95,
+    "name": "HAIR CLIPPER",
+    "brand": "TRENDIFY",
+    "price": 1899.0,
+    "old_price": 2699.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality hair clipper from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Hair Care",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 96,
+    "name": "CURL DEFINING CREAM",
+    "brand": "TRENDIFY",
+    "price": 549.0,
+    "old_price": 799.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality curl defining cream from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Hair Care",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 97,
+    "name": "DRY SHAMPOO SPRAY",
+    "brand": "TRENDIFY",
+    "price": 499.0,
+    "old_price": 749.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality dry shampoo spray from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.5,
+    "category": "Hair Care",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 98,
+    "name": "WIRELESS EARBUDS",
+    "brand": "TRENDIFY",
+    "price": 2499.0,
+    "old_price": 3499.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality wireless earbuds from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
     "category": "Electronics",
     "variants": [],
-    "discount_percent": 17,
+    "discount_percent": 28,
+    "in_stock": true
+  },
+  {
+    "id": 99,
+    "name": "POWER BANK 10000MAH",
+    "brand": "TRENDIFY",
+    "price": 1899.0,
+    "old_price": 2699.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality power bank 10000mah from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Electronics",
+    "variants": [],
+    "discount_percent": 29,
+    "in_stock": true
+  },
+  {
+    "id": 100,
+    "name": "USB-C FAST CHARGER",
+    "brand": "TRENDIFY",
+    "price": 899.0,
+    "old_price": 1299.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality usb-c fast charger from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Electronics",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 101,
+    "name": "BLUETOOTH SPEAKER",
+    "brand": "TRENDIFY",
+    "price": 2999.0,
+    "old_price": 4299.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality bluetooth speaker from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Electronics",
+    "variants": [],
+    "discount_percent": 30,
+    "in_stock": true
+  },
+  {
+    "id": 102,
+    "name": "PHONE HOLDER CAR",
+    "brand": "TRENDIFY",
+    "price": 599.0,
+    "old_price": 899.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality phone holder car from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Electronics",
+    "variants": [],
+    "discount_percent": 33,
+    "in_stock": true
+  },
+  {
+    "id": 103,
+    "name": "LED SELFIE RING LIGHT",
+    "brand": "TRENDIFY",
+    "price": 1499.0,
+    "old_price": 2199.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality led selfie ring light from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Electronics",
+    "variants": [],
+    "discount_percent": 31,
+    "in_stock": true
+  },
+  {
+    "id": 104,
+    "name": "SMART WATCH BAND",
+    "brand": "TRENDIFY",
+    "price": 499.0,
+    "old_price": 799.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality smart watch band from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Electronics",
+    "variants": [],
+    "discount_percent": 37,
+    "in_stock": true
+  },
+  {
+    "id": 105,
+    "name": "TYPE-C DATA CABLE 2PCS",
+    "brand": "TRENDIFY",
+    "price": 449.0,
+    "old_price": 699.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality type-c data cable 2pcs from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Electronics",
+    "variants": [],
+    "discount_percent": 35,
+    "in_stock": true
+  },
+  {
+    "id": 106,
+    "name": "LAPTOP COOLING PAD",
+    "brand": "TRENDIFY",
+    "price": 1799.0,
+    "old_price": 2499.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality laptop cooling pad from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Electronics",
+    "variants": [],
+    "discount_percent": 28,
+    "in_stock": true
+  },
+  {
+    "id": 107,
+    "name": "MINI TRIPOD STAND",
+    "brand": "TRENDIFY",
+    "price": 799.0,
+    "old_price": 1199.0,
+    "image": "/static/images/no-image.svg",
+    "gallery_images": [
+      "/static/images/no-image.svg"
+    ],
+    "description": "Premium quality mini tripod stand from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
+    "ratings": 4.6,
+    "category": "Electronics",
+    "variants": [],
+    "discount_percent": 33,
     "in_stock": true
   }
 ]
