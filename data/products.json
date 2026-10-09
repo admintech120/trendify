@@ -617,9 +617,9 @@
     "brand": "TRENDIFY",
     "price": 1799.0,
     "old_price": 2599.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/strap.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/strap.png"
     ],
     "description": "Premium quality rubber strap diver style from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.6,
@@ -634,9 +634,9 @@
     "brand": "TRENDIFY",
     "price": 2999.0,
     "old_price": 4299.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/set.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/set,png"
     ],
     "description": "Premium quality couple watch set from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
@@ -651,9 +651,9 @@
     "brand": "TRENDIFY",
     "price": 3499.0,
     "old_price": 4999.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/look.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/look.png"
     ],
     "description": "Premium quality smart look hybrid watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.8,
