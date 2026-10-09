@@ -498,9 +498,9 @@
     "brand": "TRENDIFY",
     "price": 2799.0,
     "old_price": 3999.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/watcch.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/watcch/.png"
     ],
     "description": "Premium quality skeleton automatic style from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
@@ -532,9 +532,9 @@
     "brand": "TRENDIFY",
     "price": 1999.0,
     "old_price": 2899.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/wwatch.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/wwatch.png"
     ],
     "description": "Premium quality dual time zone watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -549,9 +549,9 @@
     "brand": "TRENDIFY",
     "price": 1699.0,
     "old_price": 2499.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/gold.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/gold.png"
     ],
     "description": "Premium quality rose gold ladies watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.6,
