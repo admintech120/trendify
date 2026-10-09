@@ -39,9 +39,9 @@
     "brand": "TRENDIFY",
     "price": 1399.0,
     "old_price": 1899.0,
-    "image": "/static/images/no-image.svg",
+    "image": "static/images/shoe6.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "static/images/shoe6.png"
     ],
     "description": "Premium quality navy sport shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
