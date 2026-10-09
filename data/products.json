@@ -821,9 +821,9 @@
     "brand": "TRENDIFY",
     "price": 1899.0,
     "old_price": 2699.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/gary.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/gary.png"
     ],
     "description": "Premium quality grey hoodie from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
