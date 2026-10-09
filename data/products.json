@@ -460,13 +460,13 @@
   },
   {
     "id": 28,
-    "name": "GOLD TONE DRESS WATCH",
+    "name": "GOLD TONE DRESS WATCHS",
     "brand": "TRENDIFY",
     "price": 2299.0,
     "old_price": 3299.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/watch7.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/watch7.png"
     ],
     "description": "Premium quality gold tone dress watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
