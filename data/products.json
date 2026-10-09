@@ -736,9 +736,9 @@
     "brand": "TRENDIFY",
     "price": 2499.0,
     "old_price": 3599.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/box.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/box.png"
     ],
     "description": "Premium quality luxury boxed watch set from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -753,9 +753,9 @@
     "brand": "TRENDIFY",
     "price": 1899.0,
     "old_price": 2699.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/arbi.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/arbi.png"
     ],
     "description": "Premium quality arabic dial watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.6,
