@@ -668,9 +668,9 @@
     "brand": "TRENDIFY",
     "price": 1399.0,
     "old_price": 1999.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/brown.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/brown.png"
     ],
     "description": "Premium quality vintage brown watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -685,9 +685,9 @@
     "brand": "TRENDIFY",
     "price": 2099.0,
     "old_price": 2999.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/steel.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/steel.png"
     ],
     "description": "Premium quality steel bracelet chrono from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.6,
@@ -702,9 +702,9 @@
     "brand": "TRENDIFY",
     "price": 1199.0,
     "old_price": 1699.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/formal.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/formal.png"
     ],
     "description": "Premium quality slim formal watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
