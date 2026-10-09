@@ -770,9 +770,9 @@
     "brand": "TRENDIFY",
     "price": 699.0,
     "old_price": 999.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/shrt.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/shrt.png"
     ],
     "description": "Premium quality plain black t-shirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.3999999999999995,
