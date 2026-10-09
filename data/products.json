@@ -124,9 +124,9 @@
     "brand": "TRENDIFY",
     "price": 1599.0,
     "old_price": 2199.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/jim.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/jim.png"
     ],
     "description": "Premium quality gym training shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
