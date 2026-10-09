@@ -345,9 +345,9 @@
     "brand": "TRENDIFY",
     "price": 2399.0,
     "old_price": 3299.0,
-    "image": "/static/images/classic.png",
+    "image": "/static/images/classic .png",
     "gallery_images": [
-      "/static/images/classic.png"
+      "/static/images/classic .png"
     ],
     "description": "Premium quality classic loafers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -362,9 +362,9 @@
     "brand": "TRENDIFY",
     "price": 1299.0,
     "old_price": 1799.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/kini.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/kini.png"
     ],
     "description": "Premium quality knit sock sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.6,
@@ -396,12 +396,12 @@
     "brand": "TRENDIFY",
     "price": 1549.0,
     "old_price": 2149.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/dual.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/dual..png"
     ],
     "description": "Premium quality dual tone casual from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.800000000000001,
+    "ratings": 4.8,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 27,
@@ -413,9 +413,9 @@
     "brand": "TRENDIFY",
     "price": 1179.0,
     "old_price": 1579.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/light.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/light.png"
     ],
     "description": "Premium quality lightweight joggers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
