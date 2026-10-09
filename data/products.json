@@ -345,9 +345,9 @@
     "brand": "TRENDIFY",
     "price": 2399.0,
     "old_price": 3299.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/classic.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/classic.png"
     ],
     "description": "Premium quality classic loafers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -367,7 +367,7 @@
       "/static/images/no-image.svg"
     ],
     "description": "Premium quality knit sock sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.6000000000000005,
+    "ratings": 4.6,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 27,
