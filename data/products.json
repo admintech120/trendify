@@ -277,12 +277,12 @@
     "brand": "TRENDIFY",
     "price": 1999.0,
     "old_price": 2799.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/white.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/white.png"
     ],
     "description": "Premium quality white platform sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.6000000000000005,
+    "ratings": 4.6,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 28,
@@ -294,9 +294,9 @@
     "brand": "TRENDIFY",
     "price": 2699.0,
     "old_price": 3599.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/black.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/black.png"
     ],
     "description": "Premium quality trail hiking shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
@@ -311,12 +311,12 @@
     "brand": "TRENDIFY",
     "price": 699.0,
     "old_price": 999.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/soft.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/soft.png"
     ],
     "description": "Premium quality soft foam slides from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.800000000000001,
+    "ratings": 4.8,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 30,
