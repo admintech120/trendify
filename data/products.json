@@ -379,9 +379,9 @@
     "brand": "TRENDIFY",
     "price": 949.0,
     "old_price": 1349.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/spot.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/spot.png"
     ],
     "description": "Premium quality velcro sport shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
