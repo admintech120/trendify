@@ -5,9 +5,9 @@
     "brand": "TRENDIFY",
     "price": 1299.0,
     "old_price": 1799.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/shoes.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/shoes.png"
     ],
     "description": "Premium quality casual white sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -22,9 +22,9 @@
     "brand": "TRENDIFY",
     "price": 1199.0,
     "old_price": 1599.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/shoe2.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/shoe2.png"
     ],
     "description": "Premium quality black mesh runners from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.6000000000000005,
