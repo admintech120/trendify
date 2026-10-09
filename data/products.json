@@ -5,9 +5,9 @@
     "brand": "TRENDIFY",
     "price": 1299.0,
     "old_price": 1799.0,
-    "image": "/static/images/shoes.png",
+    "image": "static/images/shoe1.png",
     "gallery_images": [
-      "/static/images/shoes.png"
+      "static/images/shoe1.png"
     ],
     "description": "Premium quality casual white sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
