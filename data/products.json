@@ -5,9 +5,9 @@
     "brand": "TRENDIFY",
     "price": 1299.0,
     "old_price": 1799.0,
-    "image": "static/images/shoe1.png",
+    "image": "/static/images/shoe1.png",
     "gallery_images": [
-      "static/images/shoe1.png"
+      "/static/images/shoe1.png"
     ],
     "description": "Premium quality casual white sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -39,9 +39,9 @@
     "brand": "TRENDIFY",
     "price": 1399.0,
     "old_price": 1899.0,
-    "image": "static/images/shoe6.png",
+    "image": "/static/images/shoe6.png",
     "gallery_images": [
-      "static/images/shoe6.png"
+      "/static/images/shoe6.png"
     ],
     "description": "Premium quality navy sport shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
@@ -56,9 +56,9 @@
     "brand": "TRENDIFY",
     "price": 2499.0,
     "old_price": 3499.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/shoe10.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/shoe10.png"
     ],
     "description": "Premium quality brown leather casual from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.8,
