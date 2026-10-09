@@ -141,9 +141,9 @@
     "brand": "TRENDIFY",
     "price": 2899.0,
     "old_price": 3999.0,
-    "image": "/static/images/formal.png",
+    "image": "/static/images/fomal.png",
     "gallery_images": [
-      "/static/images/formal.png"
+      "/static/images/fomal.png"
     ],
     "description": "Premium quality formal office shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.8,
@@ -192,12 +192,12 @@
     "brand": "TRENDIFY",
     "price": 1099.0,
     "old_price": 1499.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/new shoe.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/new shoe.png"
     ],
     "description": "Premium quality canvas low top from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.6000000000000005,
+    "ratings": 4.6,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 26,
@@ -209,9 +209,9 @@
     "brand": "TRENDIFY",
     "price": 1899.0,
     "old_price": 2599.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/n s.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/n s.png"
     ],
     "description": "Premium quality running pro shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
