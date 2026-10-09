@@ -141,9 +141,9 @@
     "brand": "TRENDIFY",
     "price": 2899.0,
     "old_price": 3999.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/formal.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/formal.png"
     ],
     "description": "Premium quality formal office shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.8,
