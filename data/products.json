@@ -566,9 +566,9 @@
     "brand": "TRENDIFY",
     "price": 799.0,
     "old_price": 1199.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/sport.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/sport.png"
     ],
     "description": "Premium quality digital sport watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
@@ -583,9 +583,9 @@
     "brand": "TRENDIFY",
     "price": 1599.0,
     "old_price": 2299.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/mesh.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/mesh.png"
     ],
     "description": "Premium quality mesh bracelet watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.8,
@@ -600,9 +600,9 @@
     "brand": "TRENDIFY",
     "price": 2199.0,
     "old_price": 3099.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/tank.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/tank.png"
     ],
     "description": "Premium quality square tank watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
