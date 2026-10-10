@@ -923,9 +923,9 @@
     "brand": "TRENDIFY",
     "price": 1999.0,
     "old_price": 2799.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/zipper.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/zipper.png"
     ],
     "description": "Premium quality zipper hoodie from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.3,
@@ -940,12 +940,12 @@
     "brand": "TRENDIFY",
     "price": 899.0,
     "old_price": 1299.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/short.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/short.png"
     ],
     "description": "Premium quality sport shorts from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.3999999999999995,
+    "ratings": 4.5,
     "category": "Clothing",
     "variants": [],
     "discount_percent": 30,
@@ -957,9 +957,9 @@
     "brand": "TRENDIFY",
     "price": 1599.0,
     "old_price": 2299.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/3 pice.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/3 pice.png"
     ],
     "description": "Premium quality 3pcs t-shirt pack from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -974,9 +974,9 @@
     "brand": "TRENDIFY",
     "price": 2999.0,
     "old_price": 4299.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/bomber.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/bomber.png"
     ],
     "description": "Premium quality bomber jacket from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.6,
@@ -991,9 +991,9 @@
     "brand": "TRENDIFY",
     "price": 1699.0,
     "old_price": 2399.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/kint.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/kint.png"
     ],
     "description": "Premium quality knit sweater from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
@@ -1008,9 +1008,9 @@
     "brand": "TRENDIFY",
     "price": 1899.0,
     "old_price": 2599.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/cargo.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/cargo.png"
     ],
     "description": "Premium quality cargo joggers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.3,
