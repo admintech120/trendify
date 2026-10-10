@@ -1195,9 +1195,9 @@
     "brand": "SANDAL",
     "price": 360.0,
     "old_price": 450.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/sandal.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/sandal.png"
     ],
     "description": "Premium quality sandal beauty cream from SANDAL. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
