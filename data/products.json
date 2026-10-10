@@ -1025,12 +1025,12 @@
     "brand": "TRENDIFY",
     "price": 849.0,
     "old_price": 1199.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/tee.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/tee.png"
     ],
     "description": "Premium quality printed graphic tee from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.3999999999999995,
+    "ratings": 4.3,
     "category": "Clothing",
     "variants": [],
     "discount_percent": 29,
@@ -1042,9 +1042,9 @@
     "brand": "TRENDIFY",
     "price": 1199.0,
     "old_price": 1699.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/long.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/long.png"
     ],
     "description": "Premium quality long sleeve henley from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1059,9 +1059,9 @@
     "brand": "TRENDIFY",
     "price": 2799.0,
     "old_price": 3999.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/denim.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/denim.png"
     ],
     "description": "Premium quality denim jacket from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.6,
@@ -1076,9 +1076,9 @@
     "brand": "TRENDIFY",
     "price": 1599.0,
     "old_price": 2199.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/lenin.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/lenin.png"
     ],
     "description": "Premium quality summer linen shirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
@@ -1110,12 +1110,12 @@
     "brand": "TRENDIFY",
     "price": 1699.0,
     "old_price": 2399.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/leg.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/leg.png"
     ],
     "description": "Premium quality women wide leg pants from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.3999999999999995,
+    "ratings": 4.5,
     "category": "Clothing",
     "variants": [],
     "discount_percent": 29,
@@ -1127,9 +1127,9 @@
     "brand": "TRENDIFY",
     "price": 999.0,
     "old_price": 1499.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/hoodi.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/hoodi.png"
     ],
     "description": "Premium quality kids hoodie from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1144,9 +1144,9 @@
     "brand": "TRENDIFY",
     "price": 999.0,
     "old_price": 1399.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/sex.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/sex.png"
     ],
     "description": "Premium quality unisex oversized tee from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.6,
@@ -1161,9 +1161,9 @@
     "brand": "TRENDIFY",
     "price": 1799.0,
     "old_price": 2499.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/high.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/high.png"
     ],
     "description": "Premium quality fleece sweatshirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.7,
