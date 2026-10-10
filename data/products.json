@@ -1246,9 +1246,9 @@
     "brand": "TRENDIFY",
     "price": 899.0,
     "old_price": 1299.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/c.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/c.png"
     ],
     "description": "Premium quality vitamin c serum from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
@@ -1263,9 +1263,9 @@
     "brand": "TRENDIFY",
     "price": 699.0,
     "old_price": 999.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/50.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/50.png"
     ],
     "description": "Premium quality sunscreen spf 50 from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
@@ -1276,13 +1276,13 @@
   },
   {
     "id": 76,
-    "name": "LIP BALM SET 3PCS",
+    "name": "LIP BALM ",
     "brand": "TRENDIFY",
     "price": 399.0,
     "old_price": 599.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/bam.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/bam.png"
     ],
     "description": "Premium quality lip balm set 3pcs from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
@@ -1293,7 +1293,7 @@
   },
   {
     "id": 77,
-    "name": "HAND CREAM TUBE",
+    "name": "HAND CREAM ",
     "brand": "TRENDIFY",
     "price": 349.0,
     "old_price": 499.0,
