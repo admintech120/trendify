@@ -44,7 +44,7 @@
       "/static/images/shoe6.png"
     ],
     "description": "Premium quality navy sport shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.7,
+    "ratings": 4.3,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 26,
@@ -299,7 +299,7 @@
       "/static/images/black.png"
     ],
     "description": "Premium quality trail hiking shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.7,
+    "ratings": 4.9,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 25,
@@ -316,7 +316,7 @@
       "/static/images/soft.png"
     ],
     "description": "Premium quality soft foam slides from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.8,
+    "ratings": 3.8,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 30,
@@ -333,7 +333,7 @@
       "/static/images/print.png"
     ],
     "description": "Premium quality animal print sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.4,
+    "ratings": 4.1,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 28,
@@ -350,7 +350,7 @@
       "/static/images/classic .png"
     ],
     "description": "Premium quality classic loafers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.5,
+    "ratings": 4.4,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 27,
@@ -367,7 +367,7 @@
       "/static/images/kini.png"
     ],
     "description": "Premium quality knit sock sneakers from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.6,
+    "ratings": 3.6,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 27,
@@ -384,7 +384,7 @@
       "/static/images/spot.png"
     ],
     "description": "Premium quality velcro sport shoes from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.7,
+    "ratings": 4.9,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 29,
@@ -401,7 +401,7 @@
       "/static/images/dual..png"
     ],
     "description": "Premium quality dual tone casual from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.8,
+    "ratings": 4.2,
     "category": "Shoes",
     "variants": [],
     "discount_percent": 27,
@@ -452,7 +452,7 @@
       "/static/images/watch1.png"
     ],
     "description": "Premium quality black chronograph watch from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.8,
+    "ratings": 4.1,
     "category": "Watches",
     "variants": [],
     "discount_percent": 29,
@@ -741,7 +741,7 @@
       "/static/images/box.png"
     ],
     "description": "Premium quality luxury boxed watch set from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.5,
+    "ratings": 4.6,
     "category": "Watches",
     "variants": [],
     "discount_percent": 30,
@@ -775,7 +775,7 @@
       "/static/images/shrt.png"
     ],
     "description": "Premium quality plain black t-shirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.3,
+    "ratings": 3.3,
     "category": "Clothing",
     "variants": [],
     "discount_percent": 30,
@@ -792,7 +792,7 @@
       "/static/images/shrrt.png"
     ],
     "description": "Premium quality white crew neck tee from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.5,
+    "ratings": 4.1,
     "category": "Clothing",
     "variants": [],
     "discount_percent": 30,
@@ -809,7 +809,7 @@
       "/static/images/navy.png"
     ],
     "description": "Premium quality navy polo shirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.6,
+    "ratings": 4.5,
     "category": "Clothing",
     "variants": [],
     "discount_percent": 27,
@@ -826,7 +826,7 @@
       "/static/images/gary.png"
     ],
     "description": "Premium quality grey hoodie from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.7,
+    "ratings": 4.1,
     "category": "Clothing",
     "variants": [],
     "discount_percent": 29,
@@ -855,12 +855,12 @@
     "brand": "TRENDIFY",
     "price": 2199.0,
     "old_price": 2999.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/jean.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/jean.png"
     ],
     "description": "Premium quality slim fit jeans from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.3999999999999995,
+    "ratings": 4.35,
     "category": "Clothing",
     "variants": [],
     "discount_percent": 26,
@@ -872,9 +872,9 @@
     "brand": "TRENDIFY",
     "price": 1799.0,
     "old_price": 2499.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/pant.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/pant.png"
     ],
     "description": "Premium quality casual chino pants from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -889,9 +889,9 @@
     "brand": "TRENDIFY",
     "price": 1499.0,
     "old_price": 2099.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/formal shirt.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/fromal shirt.png"
     ],
     "description": "Premium quality formal white shirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.6,
@@ -906,12 +906,12 @@
     "brand": "TRENDIFY",
     "price": 1399.0,
     "old_price": 1899.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/check.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/check.png"
     ],
     "description": "Premium quality check casual shirt from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
-    "ratings": 4.7,
+    "ratings": 4.3,
     "category": "Clothing",
     "variants": [],
     "discount_percent": 26,
