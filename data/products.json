@@ -1331,9 +1331,9 @@
     "brand": "TRENDIFY",
     "price": 499.0,
     "old_price": 749.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/mask.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/mask.png"
     ],
     "description": "Premium quality face mask sheet 5pcs from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
@@ -1348,9 +1348,9 @@
     "brand": "NICONI",
     "price": 550.0,
     "old_price": 799.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/men de.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/men de.png"
     ],
     "description": "Premium quality men de-tan cream from NICONI. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
@@ -1365,9 +1365,9 @@
     "brand": "JOCKEY",
     "price": 399.0,
     "old_price": 549.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/foam.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/foam.png"
     ],
     "description": "Premium quality shaving foam from JOCKEY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
