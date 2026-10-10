@@ -1654,9 +1654,9 @@
     "brand": "TRENDIFY",
     "price": 2499.0,
     "old_price": 3499.0,
-    "image": "/static/images/bluetooth.png",
+    "image": "/static/images/Bluetooth.png",
     "gallery_images": [
-      "/static/images/bluetooth.png"
+      "/static/images/Bluetooth.png"
     ],
     "description": "Premium quality wireless earbuds from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.6,
@@ -1756,9 +1756,9 @@
     "brand": "TRENDIFY",
     "price": 499.0,
     "old_price": 799.0,
-    "image": "/static/images/apple.png",
+    "image": "/static/images/apple .png",
     "gallery_images": [
-      "/static/images/apple.png"
+      "/static/images/apple .png"
     ],
     "description": "Premium quality smart watch band from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.6,
