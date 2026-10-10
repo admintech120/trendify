@@ -1208,13 +1208,13 @@
   },
   {
     "id": 72,
-    "name": "FACE WASH ALOE",
+    "name": "FACE WASH ",
     "brand": "TRENDIFY",
     "price": 450.0,
     "old_price": 650.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/cream.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/cream.png"
     ],
     "description": "Premium quality face wash aloe from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
