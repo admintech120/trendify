@@ -1382,9 +1382,9 @@
     "brand": "TRENDIFY",
     "price": 1299.0,
     "old_price": 1899.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/perfume.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/perfume.png"
     ],
     "description": "Premium quality perfume 50ml from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
@@ -1399,9 +1399,9 @@
     "brand": "TRENDIFY",
     "price": 299.0,
     "old_price": 449.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/roll.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/roll.png"
     ],
     "description": "Premium quality roll-on deodorant from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
@@ -1416,9 +1416,9 @@
     "brand": "TRENDIFY",
     "price": 749.0,
     "old_price": 1099.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/night.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/night.png"
     ],
     "description": "Premium quality night cream from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
