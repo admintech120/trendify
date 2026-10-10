@@ -1178,9 +1178,9 @@
     "brand": "TRENDIFY",
     "price": 3999.0,
     "old_price": 5499.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/blazer.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/blazer.png"
     ],
     "description": "Premium quality tailored blazer from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.3,
