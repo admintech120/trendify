@@ -1433,9 +1433,9 @@
     "brand": "TRENDIFY",
     "price": 449.0,
     "old_price": 649.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/remover.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/remover.png"
     ],
     "description": "Premium quality makeup remover from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.4,
@@ -1450,9 +1450,9 @@
     "brand": "IKT",
     "price": 449.0,
     "old_price": 649.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/wax.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/wax.png"
     ],
     "description": "Premium quality hair wax stick from IKT. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1467,9 +1467,9 @@
     "brand": "TRENDIFY",
     "price": 299.0,
     "old_price": 449.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/brush.pngg",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/brush.png"
     ],
     "description": "Premium quality silicone scalp brush from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1484,9 +1484,9 @@
     "brand": "TRENDIFY",
     "price": 349.0,
     "old_price": 499.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/hair oil.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/hair oil.png"
     ],
     "description": "Premium quality hair oil applicator from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1501,9 +1501,9 @@
     "brand": "TRENDIFY",
     "price": 499.0,
     "old_price": 799.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/root.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/root.png"
     ],
     "description": "Premium quality root touch-up stick from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1518,9 +1518,9 @@
     "brand": "DR ALIES",
     "price": 699.0,
     "old_price": 999.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/beard oil.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/beard oil.png"
     ],
     "description": "Premium quality beard growth oil from DR ALIES. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1535,9 +1535,9 @@
     "brand": "TRENDIFY",
     "price": 599.0,
     "old_price": 899.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/argan.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/argan.png"
     ],
     "description": "Premium quality argan hair oil 100ml from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1552,9 +1552,9 @@
     "brand": "TRENDIFY",
     "price": 549.0,
     "old_price": 799.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/anti.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/anti.png"
     ],
     "description": "Premium quality anti dandruff shampoo from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1569,9 +1569,9 @@
     "brand": "TRENDIFY",
     "price": 649.0,
     "old_price": 949.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/shine.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/shine.png"
     ],
     "description": "Premium quality hair serum shine from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1586,9 +1586,9 @@
     "brand": "TRENDIFY",
     "price": 399.0,
     "old_price": 599.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/combset.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/combset.png"
     ],
     "description": "Premium quality beard comb set from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1603,9 +1603,9 @@
     "brand": "TRENDIFY",
     "price": 1899.0,
     "old_price": 2699.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/clipper.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/clipper.png"
     ],
     "description": "Premium quality hair clipper from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1620,9 +1620,9 @@
     "brand": "TRENDIFY",
     "price": 549.0,
     "old_price": 799.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/curl.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/curl.png"
     ],
     "description": "Premium quality curl defining cream from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
@@ -1637,9 +1637,9 @@
     "brand": "TRENDIFY",
     "price": 499.0,
     "old_price": 749.0,
-    "image": "/static/images/no-image.svg",
+    "image": "/static/images/dry.png",
     "gallery_images": [
-      "/static/images/no-image.svg"
+      "/static/images/dry.png"
     ],
     "description": "Premium quality dry shampoo spray from TRENDIFY. Fast delivery across Pakistan. Cash on delivery available.",
     "ratings": 4.5,
